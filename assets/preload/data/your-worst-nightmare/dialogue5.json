@@ -1,0 +1,11 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.01,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "THAT MYSTERIOUS FRIEND OF YOURS CAN'T SAVE YOU NOW!"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.01,
+			"portrait": "sans",
+			"boxState": "nonskippable",
+			"expression": "confused",
+			"text": "well, the fact that you made it this far..."
+		},
+		{
+			"speed": 0.01,
+			"portrait": "sans",
+			"boxState": "nonskippable",
+			"expression": "talk",
+			"text": "...means you're kinda sad, buddy."
+		},
+		{
+			"speed": 0.01,
+			"portrait": "sans",
+			"boxState": "nonskippable",
+			"expression": "talk",
+			"text": "how many tries did it take for you to get here?"
+		},
+		{
+			"speed": 0.01,
+			"portrait": "sans",
+			"boxState": "nonskippable",
+			"expression": "talk",
+			"text": "eh, i'm sure nobody is counting."
+		}
+	]
+}

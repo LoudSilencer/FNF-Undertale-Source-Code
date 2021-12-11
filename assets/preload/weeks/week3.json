@@ -1,0 +1,30 @@
+{
+	"songs": [
+		[
+			"Your Worst Nightmare",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"flowey",
+		"bf",
+		"gf"
+	],
+	"storyName": "in this world it's rap or die",
+	"weekName": "die.",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

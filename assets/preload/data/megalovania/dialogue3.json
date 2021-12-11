@@ -1,0 +1,11 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.01,
+			"portrait": "sans",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "second death, congrats. you're doing great."
+		}
+	]
+}

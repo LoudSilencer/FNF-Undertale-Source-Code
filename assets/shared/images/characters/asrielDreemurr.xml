@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="asrielDreemurr.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Down0000" x="0" y="0" width="894" height="1159"/>
+	<SubTexture name="Down0001" x="894" y="0" width="894" height="1159"/>
+	<SubTexture name="Down0002" x="1788" y="0" width="894" height="1159"/>
+	<SubTexture name="Down0003" x="2682" y="0" width="894" height="1159"/>
+	<SubTexture name="Down0004" x="2682" y="0" width="894" height="1159"/>
+	<SubTexture name="Idle0000" x="3576" y="0" width="881" height="1070"/>
+	<SubTexture name="Idle0001" x="4457" y="0" width="881" height="1070"/>
+	<SubTexture name="Idle0002" x="5338" y="0" width="881" height="1070"/>
+	<SubTexture name="Idle0003" x="6219" y="0" width="881" height="1070"/>
+	<SubTexture name="Idle0004" x="7100" y="0" width="881" height="1070"/>
+	<SubTexture name="Idle0005" x="7100" y="0" width="881" height="1070"/>
+	<SubTexture name="Idle0006" x="7100" y="0" width="881" height="1070"/>
+	<SubTexture name="Idle0007" x="7100" y="0" width="881" height="1070"/>
+	<SubTexture name="Left0000" x="0" y="1159" width="912" height="1075"/>
+	<SubTexture name="Left0001" x="912" y="1159" width="912" height="1075"/>
+	<SubTexture name="Left0002" x="1824" y="1159" width="912" height="1075"/>
+	<SubTexture name="Left0003" x="2736" y="1159" width="912" height="1075"/>
+	<SubTexture name="Left0004" x="3648" y="1159" width="912" height="1075"/>
+	<SubTexture name="Left0005" x="4560" y="1159" width="912" height="1075"/>
+	<SubTexture name="Right0000" x="5472" y="1159" width="1023" height="1075"/>
+	<SubTexture name="Right0001" x="6495" y="1159" width="1023" height="1075"/>
+	<SubTexture name="Right0002" x="0" y="2234" width="1023" height="1075"/>
+	<SubTexture name="Right0003" x="1023" y="2234" width="1023" height="1075"/>
+	<SubTexture name="Right0004" x="1023" y="2234" width="1023" height="1075"/>
+	<SubTexture name="Right0005" x="1023" y="2234" width="1023" height="1075"/>
+	<SubTexture name="Right0006" x="1023" y="2234" width="1023" height="1075"/>
+	<SubTexture name="Up0000" x="2046" y="2234" width="851" height="1227"/>
+	<SubTexture name="Up0001" x="2897" y="2234" width="851" height="1227"/>
+	<SubTexture name="Up0002" x="3748" y="2234" width="851" height="1227"/>
+	<SubTexture name="Up0003" x="4599" y="2234" width="851" height="1227"/>
+	<SubTexture name="Up0004" x="5450" y="2234" width="851" height="1227"/>
+	<SubTexture name="Up0005" x="6301" y="2234" width="851" height="1227"/>
+</TextureAtlas>

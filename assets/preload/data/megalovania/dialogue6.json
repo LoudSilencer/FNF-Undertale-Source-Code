@@ -1,0 +1,11 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.01,
+			"portrait": "sans",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "keep dyin', you've almost reached the world record."
+		}
+	]
+}

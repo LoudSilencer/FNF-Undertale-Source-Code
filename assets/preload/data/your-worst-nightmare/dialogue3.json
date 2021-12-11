@@ -1,0 +1,11 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.01,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "YOU WON'T EVER WIN!"
+		}
+	]
+}

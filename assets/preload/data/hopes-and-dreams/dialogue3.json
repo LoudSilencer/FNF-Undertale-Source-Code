@@ -1,0 +1,25 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.01,
+			"portrait": "asriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Death number 2. Just give up already."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "BF",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "BEEP BOOP BAP (BAP)."
+		},
+		{
+			"speed": 0.01,
+			"portrait": "asriel",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Fine then. Have it your way."
+		}
+	]
+}

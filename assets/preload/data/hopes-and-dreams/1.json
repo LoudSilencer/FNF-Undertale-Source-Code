@@ -1,0 +1,25 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.02,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Psst... Boyfriend!"
+		},
+		{
+			"speed": 0.02,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Press SPACE to jump, and use your ARROW keys to move your soul!"
+		},
+		{
+			"speed": 0.02,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "It only moves if you don't hit a note... good luck!"
+		}
+	]
+}

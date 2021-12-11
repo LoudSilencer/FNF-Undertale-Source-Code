@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="soul.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Soul 30000" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30001" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30002" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30003" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30004" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30005" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30006" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30007" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30008" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30009" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30010" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30011" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30012" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30013" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30014" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="Soul 30015" x="0" y="0" width="200" height="200"/>
+</TextureAtlas>

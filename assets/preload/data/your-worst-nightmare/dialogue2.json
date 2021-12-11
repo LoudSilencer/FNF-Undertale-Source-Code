@@ -1,0 +1,18 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.01,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You better be prepared..."
+		},
+		{
+			"speed": 0.01,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "TO SEE THAT GAME OVER SCREEN AGAIN! AHAHAHAHAHAAHA!"
+		}
+	]
+}

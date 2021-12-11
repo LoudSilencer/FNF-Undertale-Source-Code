@@ -1,0 +1,11 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.01,
+			"portrait": "sans",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "you might wanna restart the game and play the tutorial again."
+		}
+	]
+}

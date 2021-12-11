@@ -1,0 +1,32 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.02,
+			"portrait": "flowey",
+			"boxState": "nonskippable",
+			"expression": "confused",
+			"text": "No.... NO!!!!!"
+		},
+		{
+			"speed": 0.02,
+			"portrait": "flowey",
+			"boxState": "nonskippable",
+			"expression": "confused",
+			"text": "THIS IS IMPOSSIBLE!"
+		},
+		{
+			"speed": 0.02,
+			"portrait": "flowey",
+			"boxState": "nonskippable",
+			"expression": "talk",
+			"text": "YOU'RE SUPPOSED TO OBEY ME!!!!!!!!!"
+		},
+		{
+			"speed": 0.02,
+			"portrait": "flowey",
+			"boxState": "nonskippable",
+			"expression": "talk",
+			"text": "NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.01,
+			"portrait": "sans",
+			"boxState": "nonskippable",
+			"expression": "confused",
+			"text": "you came here for a challenge, right?"
+		},
+		{
+			"speed": 0.01,
+			"portrait": "sans",
+			"boxState": "nonskippable",
+			"expression": "talk",
+			"text": "well, hope you're ready to lose all your progress."
+		}
+	]
+}

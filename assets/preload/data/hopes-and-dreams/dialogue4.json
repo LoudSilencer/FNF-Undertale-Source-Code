@@ -1,0 +1,11 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.01,
+			"portrait": "asriel",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "You've died 3 times. You should take a break, a long one..."
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.01,
+			"portrait": "asriel",
+			"boxState": "nonskippable",
+			"expression": "confused",
+			"text": "I'll admit, you've made it pretty far..."
+		},
+		{
+			"speed": 0.01,
+			"portrait": "asriel",
+			"boxState": "nonskippable",
+			"expression": "talk",
+			"text": "...But it ends HERE!"
+		}
+	]
+}

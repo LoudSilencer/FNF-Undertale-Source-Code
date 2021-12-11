@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Souls.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SoulsCircle0000" x="0" y="0" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0001" x="535" y="0" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0002" x="1070" y="0" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0003" x="1605" y="0" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0004" x="2140" y="0" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0005" x="2675" y="0" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0006" x="3210" y="0" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0007" x="0" y="535" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0008" x="535" y="535" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0009" x="1070" y="535" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0010" x="1605" y="535" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0011" x="2140" y="535" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0012" x="2675" y="535" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0013" x="3210" y="535" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0014" x="0" y="1070" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0015" x="535" y="1070" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0016" x="1070" y="1070" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0017" x="1605" y="1070" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0018" x="2140" y="1070" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0019" x="2675" y="1070" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0020" x="3210" y="1070" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0021" x="0" y="1605" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0022" x="535" y="1605" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0023" x="1070" y="1605" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0024" x="1605" y="1605" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0025" x="2140" y="1605" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0026" x="2675" y="1605" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0027" x="3210" y="1605" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0028" x="0" y="2140" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0029" x="535" y="2140" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0030" x="1070" y="2140" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0031" x="1605" y="2140" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0032" x="2140" y="2140" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0033" x="2675" y="2140" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0034" x="3210" y="2140" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0035" x="0" y="2675" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0036" x="535" y="2675" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0037" x="1070" y="2675" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0038" x="1605" y="2675" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0039" x="2140" y="2675" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0040" x="2675" y="2675" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0041" x="3210" y="2675" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0042" x="0" y="3210" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0043" x="535" y="3210" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0044" x="1070" y="3210" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0045" x="1605" y="3210" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0046" x="2140" y="3210" width="535" height="535"/>
+	<SubTexture name="SoulsCircle0047" x="2675" y="3210" width="535" height="535"/>
+</TextureAtlas>

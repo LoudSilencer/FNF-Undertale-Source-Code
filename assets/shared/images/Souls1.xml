@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Souls1.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Souls10000" x="0" y="0" width="179" height="178"/>
+	<SubTexture name="Souls10001" x="179" y="0" width="179" height="178"/>
+	<SubTexture name="Souls10002" x="358" y="0" width="179" height="178"/>
+	<SubTexture name="Souls10003" x="537" y="0" width="179" height="178"/>
+	<SubTexture name="Souls10004" x="716" y="0" width="179" height="178"/>
+	<SubTexture name="Souls10005" x="895" y="0" width="179" height="178"/>
+	<SubTexture name="Souls10006" x="1074" y="0" width="179" height="178"/>
+	<SubTexture name="Souls10007" x="1253" y="0" width="179" height="178"/>
+	<SubTexture name="Souls10008" x="1432" y="0" width="179" height="178"/>
+	<SubTexture name="Souls10009" x="1611" y="0" width="179" height="178"/>
+	<SubTexture name="Souls10010" x="1790" y="0" width="179" height="178"/>
+	<SubTexture name="Souls10011" x="0" y="178" width="179" height="178"/>
+	<SubTexture name="Souls10012" x="179" y="178" width="179" height="178"/>
+	<SubTexture name="Souls10013" x="358" y="178" width="179" height="178"/>
+	<SubTexture name="Souls10014" x="537" y="178" width="179" height="178"/>
+	<SubTexture name="Souls10015" x="716" y="178" width="179" height="178"/>
+	<SubTexture name="Souls10016" x="895" y="178" width="179" height="178"/>
+	<SubTexture name="Souls10017" x="1074" y="178" width="179" height="178"/>
+	<SubTexture name="Souls10018" x="1253" y="178" width="179" height="178"/>
+	<SubTexture name="Souls10019" x="1432" y="178" width="179" height="178"/>
+	<SubTexture name="Souls10020" x="1611" y="178" width="179" height="178"/>
+	<SubTexture name="Souls10021" x="1790" y="178" width="179" height="178"/>
+	<SubTexture name="Souls10022" x="0" y="356" width="179" height="178"/>
+	<SubTexture name="Souls10023" x="179" y="356" width="179" height="178"/>
+	<SubTexture name="Souls10024" x="358" y="356" width="179" height="178"/>
+	<SubTexture name="Souls10025" x="537" y="356" width="179" height="178"/>
+	<SubTexture name="Souls10026" x="716" y="356" width="179" height="178"/>
+	<SubTexture name="Souls10027" x="895" y="356" width="179" height="178"/>
+	<SubTexture name="Souls10028" x="1074" y="356" width="179" height="178"/>
+	<SubTexture name="Souls10029" x="1253" y="356" width="179" height="178"/>
+	<SubTexture name="Souls10030" x="1432" y="356" width="179" height="178"/>
+	<SubTexture name="Souls10031" x="1611" y="356" width="179" height="178"/>
+</TextureAtlas>

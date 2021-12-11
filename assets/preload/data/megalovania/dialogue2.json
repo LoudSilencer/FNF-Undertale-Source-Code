@@ -1,0 +1,18 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.01,
+			"portrait": "sans",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "heh, just kidding."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sans",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "buckle up, bud."
+		}
+	]
+}

@@ -5,14 +5,28 @@
 			"portrait": "sans",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "heh, just kidding."
+			"text": "heh, of course i'm not going easy on you."
 		},
 		{
 			"speed": 0.05,
 			"portrait": "sans",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "buckle up, bud."
+			"text": "although, it seems the more you die... the more determined you get."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sans",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "to put it simply, your health is starting to regenerate."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sans",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "heh, cheater."
 		}
 	]
 }

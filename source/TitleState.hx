@@ -486,17 +486,27 @@ class TitleState extends MusicBeatState
 				case 12:
 					deleteCoolText();
 				case 13:
-					createCoolText(["Welcome Player."], -60);
+					if (ClientPrefs.progression == 0)
+						createCoolText(["Welcome Player."], -60);
+					else
+						createCoolText(["Welcome Back."], -60);
 					FlxG.sound.play(Paths.music('gasterTalk'), 0.7);
 				case 16:
 					deleteCoolText();
 				case 17:
-					createCoolText(["If you already know the rules to this world... press ENTER."], -60);
+					if (ClientPrefs.progression != 0)
+						createCoolText(["If you already know the rules to this world... press ENTER."], -60);
+					else
+						createCoolText(["Since you're new..."], -60);
 					FlxG.sound.play(Paths.music('gasterTalk'), 0.7);
 				case 18:
-					addMoreText("If not... wait here for just a moment.", -60);
+					if (ClientPrefs.progression != 0){
+						addMoreText("If not... wait here for just a moment.", -60);
+						skippedIntro = true;
+					}
+					else
+						addMoreText("I will teach you how to play.", -60);
 					FlxG.sound.play(Paths.music('gasterTalk'), 0.7);
-					skippedIntro = true;
 				case 29:
 					PlayState.isStoryMode = true;
 					PlayState.SONG = Song.loadFromJson("tutorial", "tutorial");

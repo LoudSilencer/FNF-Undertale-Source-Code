@@ -3315,6 +3315,19 @@ class PlayState extends MusicBeatState
 				var percent:Float = ratingPercent;
 				if(Math.isNaN(percent)) percent = 0;
 				Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent);
+				if (Paths.formatToSongPath(curSong) == 'hopes-and-dreams' && FlxG.save.data.progression == 0)
+				{
+					FlxG.save.data.progression = 1;
+				}
+				else if (Paths.formatToSongPath(curSong) == 'your-worst-nightmare' && FlxG.save.data.progression == 1)
+				{
+					FlxG.save.data.progression = 2;
+				}
+				else if (Paths.formatToSongPath(curSong) == 'megalovania' && FlxG.save.data.progression == 2)
+				{
+					FlxG.save.data.progression = 3;
+				}
+				ClientPrefs.saveSettings();
 				#end
 			}
 
@@ -3345,19 +3358,19 @@ class PlayState extends MusicBeatState
 						if (SONG.validScore)
 						{
 							Highscore.saveWeekScore(WeekData.getWeekFileName(), campaignScore, storyDifficulty);
-							if (FlxG.save.data.progress < 1 && Paths.formatToSongPath(curSong) == 'hopes-and-dreams'){
-							//FlxG.save.data.progress = 1;
-							//FlxG.save.data.progression = "Defeat OMEGA FLOWEY. (Located at the bottom of The Barrier)";
-							}
-							else if (FlxG.save.data.progress < 2 && Paths.formatToSongPath(curSong) == 'your-worst-nightmare'){
-							//FlxG.save.data.progress = 1;
-							//FlxG.save.data.progression = "Defeat sans. (Located in the Judgement Hall)";
-							}
-							else if (FlxG.save.data.progress < 2 && Paths.formatToSongPath(curSong) == 'megalovania'){
-							//FlxG.save.data.progress = 1;
-							//FlxG.save.data.progression = "";
-							}
-							
+						if (Paths.formatToSongPath(curSong) == 'hopes-and-dreams' && FlxG.save.data.progression == 0)
+						{
+							FlxG.save.data.progression = 1;
+						}
+						else if (Paths.formatToSongPath(curSong) == 'your-worst-nightmare' && FlxG.save.data.progression == 1)
+						{
+							FlxG.save.data.progression = 2;
+						}
+						else if (Paths.formatToSongPath(curSong) == 'megalovania' && FlxG.save.data.progression == 2)
+						{
+							FlxG.save.data.progression = 3;
+						}
+						ClientPrefs.saveSettings();			
 						}
 
 						FlxG.save.data.weekCompleted = StoryMenuState.weekCompleted;
@@ -4374,8 +4387,8 @@ class PlayState extends MusicBeatState
 		}
 		if(Paths.formatToSongPath(curSong) == "hopes-and-dreams")
 		{
-			var rotateRate = curStep / 8.5;
-			var rateMove:Float = 1400;
+			var rotateRate = curStep / 5.5;
+			var rateMove:Float = 1100;
 			var goToy = -200 + -Math.sin(rotateRate * 2) * rateMove * 0.45;
 			var goTox = -330 -Math.cos(rotateRate) * rateMove;
 			dad.x += (goTox - dad.x) / 12;
@@ -4487,7 +4500,8 @@ class PlayState extends MusicBeatState
 			{
 				fstatic.alpha = 0;
 				slashAttack = false;
-				lightningFast = true;
+				if (ClientPrefs.moreSoul)
+					lightningFast = true;
 				starBlaze = true;
 			}
 			if (curBeat == 248)
@@ -4519,7 +4533,8 @@ class PlayState extends MusicBeatState
 			}
 			if (curBeat == 376)
 			{
-				lightningFast = true;
+				if (ClientPrefs.moreSoul)
+					lightningFast = true;
 				fstatic.alpha = 0;
 				starBlaze = true;
 			}
@@ -4562,7 +4577,8 @@ class PlayState extends MusicBeatState
 			if (curBeat == 648)
 			{
 				fstatic.alpha = .2;
-				lightningSequence = true;
+				if (ClientPrefs.moreSoul)
+					lightningSequence = true;
 				slashAttack = true;
 				slashExtra = true;
 				starBlaze = true;
@@ -4804,7 +4820,7 @@ class PlayState extends MusicBeatState
 		if(curBeat == 160)
 		{
 			starBlaze = false;
-			lightningSlow = true;
+			//lightningSlow = true;
 			createSpookyText("SHOCKER BREAKER!");
 		}
 		if(curBeat == 176)
@@ -4816,7 +4832,10 @@ class PlayState extends MusicBeatState
 		if(curBeat == 192)
 		{
 			starBlaze = false;
-			lightningFast = true;
+			if (ClientPrefs.moreSoul)
+				lightningFast = true;
+			else
+				lightningSlow = true;
 			createSpookyText("SHOCKER BREAKER TWO!");
 		}
 		if(curBeat == 256)
@@ -4828,7 +4847,8 @@ class PlayState extends MusicBeatState
 		{
 			starBlaze = false;
 			lightningFast = false;
-			slashAttack = true;
+			lightningSlow = false;
+			slashAttack = false;
 			createSpookyText("CHAOS SABERS!");
 		}
 		if(curBeat == 272)
@@ -4848,8 +4868,9 @@ class PlayState extends MusicBeatState
 		if(curBeat == 320)
 		{
 			starBlaze = true;
-			slashExtra = true;
-			lightningSlow = true;
+			if (ClientPrefs.moreSoul)
+				slashExtra = true;
+			lightningSlow = false;
 			createSpookyText("GOD OF HYPERDEATH!");
 		}
 		if(curBeat == 384)
@@ -4860,23 +4881,35 @@ class PlayState extends MusicBeatState
 		}
 		if(curBeat == 416)
 		{
-			lightningAll = true;
+			if (ClientPrefs.moreSoul)
+				slashAttack = true;
+			else
+				//explode
 			createSpookyText("SHOCKER BREAKER THREE!");
 		}
 		if(curBeat == 512)
 		{
-			lightningAll = false;
+			slashAttack = false;
 		}
 		if(curBeat == 544)
 		{
 			starBlaze = true;
 			createSpookyText("GOD OF HYPERDEATH!");
+			if (ClientPrefs.moreSoul)
+			{
 			lightningTriple = true;
 			slashAttack = true;
 			slashExtra = true;
+			}
+			else
+			{
+				lightningSlow = true;
+				slashAttack = true;
+			}
 		}
 		if(curBeat == 576)
 		{
+			lightningSlow = false;
 			starBlaze = false;
 			createSpookyText("CHAOS SABERS!!");
 			lightningTriple = false;
@@ -4885,7 +4918,7 @@ class PlayState extends MusicBeatState
 		}
 		if (curBeat == 640)
 		{
-			lightningSequence = true;
+			//lightningSequence = true;
 			slashAttack = false;
 			createSpookyText("CHAOS SABERS + LIGHTNING!");
 		}
@@ -4897,9 +4930,17 @@ class PlayState extends MusicBeatState
 		if (curBeat == 736)
 		{
 			starBlaze = true;
+			if (ClientPrefs.moreSoul)
+			{
 			lightningTriple = true;
 			slashAttack = true;
 			slashExtra = true;
+			}
+			else
+			{
+				lightningSlow = true;
+				slashAttack = true;
+			}
 			createSpookyText("GOD OF HYPERDEATH!");
 		}
 		if (curBeat == 768)
@@ -4907,12 +4948,13 @@ class PlayState extends MusicBeatState
 			starBlaze = false;
 			lightningTriple = false;
 			slashAttack = true;
-			slashExtra = true;
+			lightningSlow = false;
+			if (ClientPrefs.moreSoul)
+				slashExtra = true;
 			createSpookyText("CHAOS SABERS!");
 		}
 		if (curBeat == 864)
 		{
-			lightningTriple = true;
 			slashAttack = false;
 			slashExtra = true;
 			createSpookyText("CHAOS SABERS + LIGHTNING!");
@@ -4950,19 +4992,19 @@ class PlayState extends MusicBeatState
 
 		if(curBeat % 4 == 0 && (slashAttack))
 		{
-			FlxG.sound.play(Paths.sound('warning'),0.5);
+			FlxG.sound.play(Paths.sound('warning'),0.2);
 			upOrDown = FlxG.random.int(0);
 			spawnBoxOnNote(0);
 		}
 		if(curBeat % 4 == 2 && (slashExtra))
 		{
-			FlxG.sound.play(Paths.sound('warning'),0.5);
+			FlxG.sound.play(Paths.sound('warning'),0.2);
 			upOrDown = FlxG.random.int(0);
 			spawnBoxOnNote(0);
 		}
 		if(curBeat % 4 == 1 && (slashAttack) && curBeat > 3)
 		{
-			FlxG.sound.play(Paths.sound('slash'),2);
+			FlxG.sound.play(Paths.sound('slash'),.5);
 			spawnSlashOnNote(0);
 			if (!jumping)
 			{
@@ -4978,7 +5020,7 @@ class PlayState extends MusicBeatState
 
 		if(curBeat % 4 == 3 && (slashExtra) && curBeat > 3)
 		{
-			FlxG.sound.play(Paths.sound('slash'),2);
+			FlxG.sound.play(Paths.sound('slash'),.5);
 			spawnSlashOnNote(0);
 			if (!jumping)
 			{
@@ -4996,7 +5038,7 @@ class PlayState extends MusicBeatState
 			
 			if (Paths.formatToSongPath(curSong) == 'hopes-and-dreams')
 			{
-				FlxG.sound.play(Paths.sound('lightning'),2);
+				FlxG.sound.play(Paths.sound('lightning'),.5);
 			}
 			else if (Paths.formatToSongPath(curSong) == 'megalovania' || Paths.formatToSongPath(curSong) == 'tutorial')
 			{
@@ -5019,7 +5061,7 @@ class PlayState extends MusicBeatState
 			
 			if (Paths.formatToSongPath(curSong) == 'hopes-and-dreams')
 			{
-				FlxG.sound.play(Paths.sound('lightning'),2);
+				FlxG.sound.play(Paths.sound('lightning'),.5);
 			}
 			else if (Paths.formatToSongPath(curSong) == 'megalovania' || Paths.formatToSongPath(curSong) == 'tutorial')
 			{
@@ -5037,13 +5079,13 @@ class PlayState extends MusicBeatState
 				songMisses++;
 			}
 
-			FlxG.sound.play(Paths.sound('warning'),0.5);
+			FlxG.sound.play(Paths.sound('warning'),0.2);
 			selection = FlxG.random.int(0,3);
 			spawnWarningOnNote(selection);
 		}
 		else if (lightningAll)
 		{
-			FlxG.sound.play(Paths.sound('warning'),0.5);
+			FlxG.sound.play(Paths.sound('warning'),0.2);
 			selection = FlxG.random.int(0,3);
 			spawnWarningOnNote(selection);
 			warningFirst = true;
@@ -5055,7 +5097,7 @@ class PlayState extends MusicBeatState
 
 		if(curBeat % 4 == 0 && (lightningSlow || lightningFast))
 		{
-			FlxG.sound.play(Paths.sound('warning'),0.5);
+			FlxG.sound.play(Paths.sound('warning'),0.2);
 			selection = FlxG.random.int(0,3);
 			spawnWarningOnNote(selection);
 		}
@@ -5071,11 +5113,11 @@ class PlayState extends MusicBeatState
 		{
 			if (Paths.formatToSongPath(curSong) == 'hopes-and-dreams')
 			{
-				FlxG.sound.play(Paths.sound('lightning'),2);
+				FlxG.sound.play(Paths.sound('lightning'),.5);
 			}
 			else if (Paths.formatToSongPath(curSong) == 'megalovania' || Paths.formatToSongPath(curSong) == 'tutorial')
 			{
-				FlxG.sound.play(Paths.sound('blaster'),2);
+				FlxG.sound.play(Paths.sound('blaster'),.5);
 			}
 			spawnLightningOnNote(selection);
 			if (selection == heartNote)
@@ -5093,7 +5135,7 @@ class PlayState extends MusicBeatState
 		{
 			if (Paths.formatToSongPath(curSong) == 'hopes-and-dreams')
 			{
-				FlxG.sound.play(Paths.sound('lightning'),2);
+				FlxG.sound.play(Paths.sound('lightning'),.5);
 			}
 			else if (Paths.formatToSongPath(curSong) == 'megalovania' || Paths.formatToSongPath(curSong) == 'tutorial')
 			{
@@ -5113,7 +5155,7 @@ class PlayState extends MusicBeatState
 		}
 		if(curBeat % 4 == 0 && lightningTriple)
 		{
-			FlxG.sound.play(Paths.sound('warning'),0.5);
+			FlxG.sound.play(Paths.sound('warning'),0.2);
 			selection = FlxG.random.int(0,3);
 			selection2 = FlxG.random.int(0,3);
 			while (selection2 == selection)
@@ -5131,7 +5173,7 @@ class PlayState extends MusicBeatState
 		}
 		if((curBeat % 8 == 0 || curBeat % 8 == 5) && lightningTripleBreakbeat)
 		{
-			FlxG.sound.play(Paths.sound('warning'),0.5);
+			FlxG.sound.play(Paths.sound('warning'),0.2);
 			selection = FlxG.random.int(0,3);
 			selection2 = FlxG.random.int(0,3);
 			while (selection2 == selection)
@@ -5151,11 +5193,11 @@ class PlayState extends MusicBeatState
 		{
 			if (Paths.formatToSongPath(curSong) == 'hopes-and-dreams')
 			{
-				FlxG.sound.play(Paths.sound('lightning'),2);
+				FlxG.sound.play(Paths.sound('lightning'),.5);
 			}
 			else if (Paths.formatToSongPath(curSong) == 'megalovania' || Paths.formatToSongPath(curSong) == 'tutorial')
 			{
-				FlxG.sound.play(Paths.sound('blaster'),2);
+				FlxG.sound.play(Paths.sound('blaster'),.5);
 			}
 			spawnLightningOnNote(selection);
 			spawnLightningOnNote(selection2);
@@ -5175,11 +5217,11 @@ class PlayState extends MusicBeatState
 		{
 			if (Paths.formatToSongPath(curSong) == 'hopes-and-dreams')
 			{
-				FlxG.sound.play(Paths.sound('lightning'),2);
+				FlxG.sound.play(Paths.sound('lightning'),.5);
 			}
 			else if (Paths.formatToSongPath(curSong) == 'megalovania' || Paths.formatToSongPath(curSong) == 'tutorial')
 			{
-				FlxG.sound.play(Paths.sound('blaster'),2);
+				FlxG.sound.play(Paths.sound('blaster'),.5);
 			}
 			spawnLightningOnNote(selection);
 			spawnLightningOnNote(selection2);
@@ -5197,7 +5239,7 @@ class PlayState extends MusicBeatState
 		}
 		if(curBeat % 4 == 2 && lightningFast)
 		{
-			FlxG.sound.play(Paths.sound('warning'),0.5);
+			FlxG.sound.play(Paths.sound('warning'),0.2);
 			selection = FlxG.random.int(0,3);
 			spawnWarningOnNote(selection);
 		}
@@ -5206,7 +5248,7 @@ class PlayState extends MusicBeatState
 
 		if(lightningSequence)
 		{
-			FlxG.sound.play(Paths.sound('warning'),0.5);
+			FlxG.sound.play(Paths.sound('warning'),0.2);
 			selection = curBeat % 4;
 			spawnWarningOnNote(selection);
 			warningFirst = true;

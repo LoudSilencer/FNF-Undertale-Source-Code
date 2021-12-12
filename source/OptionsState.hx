@@ -715,6 +715,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 
 	static var options:Array<String> = [
 		'GRAPHICS',
+		'Harder Difficulty',
 		'Low Quality',
 		'Anti-Aliasing',
 		'Persistent Cached Data',
@@ -867,7 +868,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 						ClientPrefs.showFPS = !ClientPrefs.showFPS;
 						if(Main.fpsVar != null)
 							Main.fpsVar.visible = ClientPrefs.showFPS;
-
+					case 'Harder Difficulty':
+						ClientPrefs.moreSoul = !ClientPrefs.moreSoul;
 					case 'Low Quality':
 						ClientPrefs.lowQuality = !ClientPrefs.lowQuality;
 
@@ -987,6 +989,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 				daText = "If unchecked, hides FPS Counter.";
 			case 'Low Quality':
 				daText = "If checked, disables some background details,\ndecreases loading times and improves performance.";
+			case 'Harder Difficulty':
+				daText = "If checked, adds more SOUL mechanics to songs.";
 			case 'Persistent Cached Data':
 				daText = "If checked, images loaded will stay in memory\nuntil the game is closed, this increases memory usage,\nbut basically makes reloading times instant.";
 			case 'Anti-Aliasing':
@@ -1059,6 +1063,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 						daValue = ClientPrefs.showFPS;
 					case 'Low Quality':
 						daValue = ClientPrefs.lowQuality;
+					case 'Harder Difficulty':
+						daValue = ClientPrefs.moreSoul;
 					case 'Anti-Aliasing':
 						daValue = ClientPrefs.globalAntialiasing;
 					case 'Note Splashes':

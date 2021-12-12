@@ -12,21 +12,21 @@
 			"portrait": "sans",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "great job, buddy... but..."
+			"text": "well, the health regeneration helped."
 		},
 		{
 			"speed": 0.01,
 			"portrait": "sans",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "i still win."
+			"text": "either way, i still win."
 		},
 		{
 			"speed": 0.01,
 			"portrait": "sans",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "this song isn't gonna end... ever."
+			"text": "because this song isn't gonna end... ever."
 		},
 		{
 			"speed": 0.01,

@@ -150,8 +150,8 @@ class RPGState extends MusicBeatState
 				add(hitBox1);
 				obbyList.push(hitBox1);
 
-				var money:Alphabet = new Alphabet(0, 0, "OPTIONS", true, false,0.05,.6);
-				money.x = (1110/2);
+				var money:Alphabet = new Alphabet(0, 0, "OPTIONS AND DIFFICULTY", true, false,0.05,.6);
+				money.x = (1110/2) - 150;
 				money.y = 1110 - 575;
 				money.visible = false;
 				add(money);
@@ -328,7 +328,8 @@ class RPGState extends MusicBeatState
 				exit1.visible = false;
 				add(exit1);
 				obbyList.push(exit1);
-
+				if (FlxG.save.data.progression > 1)
+				{
 				var interact = new FlxSprite(-80).loadGraphic(Paths.image('hitbox'));
 				interact.width = 1000;
 				interact.height = 800;
@@ -337,20 +338,42 @@ class RPGState extends MusicBeatState
 				interact.visible = false;
 				add(interact);
 				interactList.push(interact);	
+				}
 
+
+				if (FlxG.save.data.progression > 1)
+				{
 				var money:Alphabet = new Alphabet(0, 0, "Sans", true, false,0.05,.6);
 				money.x = 2000;
 				money.y = 600;
 				money.visible = false;
 				add(money);
+				
 				textList.push(money);
-
+	
 				var money2:Alphabet = new Alphabet(0, 0, "DIFFICULTY VERY HARD", true, false,0.05,.6);
 				money2.x = 2000;
 				money2.y = 700;
 				money2.visible = false;
 				add(money2);
 				textList.push(money2);
+				}
+				else
+				{
+
+				var money:Alphabet = new Alphabet(0, 0, "Locked", true, false,0.05,.6);
+				money.x = 2000;
+				money.y = 600;
+				money.visible = true;
+				add(money);
+				textList.push(money);
+				var money2:Alphabet = new Alphabet(0, 0, "DEFEAT FLOWEY", true, false,0.05,.6);
+				money2.x = 2000;
+				money2.y = 700;
+				money2.visible = true;
+				add(money2);
+				textList.push(money2);
+				}
 
 				
 				exit2 = new FlxSprite(-80).loadGraphic(Paths.image('hitbox'));
@@ -522,7 +545,8 @@ class RPGState extends MusicBeatState
 				hitBox1.visible = false;
 				add(hitBox1);
 				obbyList.push(hitBox1);
-
+				if (FlxG.save.data.progression > 0)
+				{
 				var money:Alphabet = new Alphabet(0, 0, "OMEGA FLOWEY", true, false,0.05,.6);
 				money.x = bg.x + (bg.width/2) - 175;
 				money.y = 1110 - 975 + 1620;
@@ -546,6 +570,24 @@ class RPGState extends MusicBeatState
 				interact.visible = false;
 				add(interact);
 				interactList.push(interact);
+				}
+				else
+				{
+				var money:Alphabet = new Alphabet(0, 0, "LOCKED", true, false,0.05,.6);
+				money.x = bg.x + (bg.width/2) - 175;
+				money.y = 1110 - 975 + 1620;
+				money.visible = true;
+				add(money);
+				textList.push(money);
+
+				var money:Alphabet = new Alphabet(0, 0, "DEFEAT ASRIEL", true, false,0.05,.6);
+				money.x = bg.x + (bg.width/2) - 175;
+				money.y = 1110 - 975 + 1720;
+				money.visible = true;
+				add(money);
+				textList.push(money);
+				
+				}
 
 
 				var money2:Alphabet = new Alphabet(0, 0, "ASRIEL DREEMURR", true, false,0.05,.9);
@@ -707,6 +749,7 @@ class RPGState extends MusicBeatState
 			minY = interactList[i].y + 50;
 			maxX = interactList[i].x  + interactList[i].width +150;
 			maxY = interactList[i].y + interactList[i].height +150;
+
 			if (overBF.y + yCoord < minY || overBF.y + yCoord > maxY || overBF.x + xCoord < minX || overBF.x + xCoord > maxX)
 			{
 				if(checkDetect)
@@ -723,8 +766,13 @@ class RPGState extends MusicBeatState
 			}
 			if (checkDetect)
 			{
-				removeInteractText();
-				trace("Ended interaction.");
+				if (ClientPrefs.progression >= 1)
+				{
+					removeInteractText();
+					trace("Ended interaction.");
+				}
+				else
+					addInteractText();
 				isInteracting = false;
 			}
 			else
@@ -833,7 +881,7 @@ class RPGState extends MusicBeatState
 			{
 				if (checkCollision(0,-10))
 				{
-					overBF.y -= 10;
+					overBF.y -= 10 * (60/ClientPrefs.framerate);
 				}
 				checkInteractables(0,0);
 			}
@@ -842,7 +890,7 @@ class RPGState extends MusicBeatState
 			{
 				if (checkCollision(0,10))
 				{
-					overBF.y += 10;
+					overBF.y += 10 * (60/ClientPrefs.framerate);
 				}
 				checkInteractables(0,0);
 			}
@@ -851,7 +899,7 @@ class RPGState extends MusicBeatState
 			{
 				if (checkCollision(-10,0))
 				{
-					overBF.x -= 10;
+					overBF.x -= 10 * (60/ClientPrefs.framerate);
 				}
 				checkInteractables(0,0);
 			}
@@ -860,7 +908,7 @@ class RPGState extends MusicBeatState
 			{
 				if (checkCollision(10,0))
 				{
-					overBF.x += 10;
+					overBF.x += 10 * (60/ClientPrefs.framerate);
 				}
 				checkInteractables(0,0);
 

@@ -68,9 +68,9 @@ class Character extends FlxSprite
 	//Used on Character Editor
 	public var imageFile:String = '';
 	public var jsonScale:Float = 1;
-	public var noAntialiasing:Bool = false;
+	public var noAntialiasing:Bool = true;
 	public var originalFlipX:Bool = false;
-	public var healthColorArray:Array<Int> = [255, 0, 0];
+	public var healthColorArray:Array<Int> = [255, 255, 0];
 	public var alreadyLoaded:Bool = true; //Used by "Change Character" event
 
 	public static var DEFAULT_CHARACTER:String = 'bf'; //In case a character is missing, it will use BF on its place
@@ -136,15 +136,13 @@ class Character extends FlxSprite
 				singDuration = json.sing_duration;
 				flipX = !!json.flip_x;
 				if(json.no_antialiasing) {
-					antialiasing = false;
-					noAntialiasing = true;
+					antialiasing = true;
+					noAntialiasing = false;
 				}
 
-				if(json.healthbar_colors != null && json.healthbar_colors.length > 2)
-					healthColorArray = json.healthbar_colors;
 
-				antialiasing = !noAntialiasing;
-				if(!ClientPrefs.globalAntialiasing) antialiasing = false;
+				antialiasing = true;
+				if(!ClientPrefs.globalAntialiasing) antialiasing = true;
 
 				animationsArray = json.animations;
 				if(animationsArray != null && animationsArray.length > 0) {

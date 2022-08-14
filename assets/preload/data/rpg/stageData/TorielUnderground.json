@@ -1,0 +1,102 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "TorielUnderground",
+			"previous": "TorielHouseMain",
+			"next": "RuinsFinal",
+			"mainX": 707,
+			"mainY": 3720,
+			"exitX": 11237,
+			"exitY": 1116,
+			"areaname": "Toriel's House",
+			"sectionname": "house"
+		},
+		{
+			"type": "hitbox",
+			"height": 11118,
+			"width": 1920,
+			"size": 1,
+			"x": -192,
+			"y": 1620,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 11922,
+			"width": 2976,
+			"size": 1,
+			"x": -1440,
+			"y": -1344,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 15915,
+			"width": 1704,
+			"size": 1,
+			"x": -36,
+			"y": 4080,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 1272,
+			"width": 3216,
+			"size": 1,
+			"x": 11708,
+			"y": 1608,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 2148,
+			"width": 3312,
+			"size": 1,
+			"x": 12172,
+			"y":-1548,
+			"alpha": 0
+		},
+		{
+			"type": "interactNoaccept",
+			"name": "torielStartDialogue",
+			"completion": "torielStart",
+			"width": 144,
+			"height": 2460,
+			"size": 1,
+			"x": 10000,
+			"y": 1014,
+			"alpha": 0.90
+		},
+		{
+			"type": "hitbox",
+			"height": 2107,
+			"width": 1152,
+			"size": 1,
+			"x": 10450,
+			"y": -312,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "2",
+			"height": 261,
+			"width": 573,
+			"size": 1,
+			"x": 345,
+			"y": 3525,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "1",
+			"height": 708,
+			"width": 144,
+			"size": 1,
+			"x": 10949,
+			"y": 792,
+			"alpha": 0
+		}
+		
+	]
+}

@@ -15,6 +15,7 @@ class ClientPrefs {
 	public static var noteSplashes:Bool = true;
 	public static var lowQuality:Bool = false;
 	public static var framerate:Int = 60;
+	public static var soulColor:Int = 0;
 	public static var cursing:Bool = true;
 	public static var violence:Bool = true;
 	public static var camZooms:Bool = true;
@@ -25,7 +26,9 @@ class ClientPrefs {
 	public static var ghostTapping:Bool = true;
 	public static var hideTime:Bool = false;
 	public static var moreSoul:Bool = false;
+	public static var colorBlind:Bool = false;
 	public static var progression:Int = 0;
+	public static var soulSpeed:Float = 7;
 
 	//Every key has two binds, these binds are defined on defaultKeys! If you want your control to be changeable, you have to add it on ControlsSubState (inside OptionsState.hx)'s list
 	public static var keyBinds:Map<String, Dynamic> = new Map<String, Dynamic>();
@@ -62,6 +65,7 @@ class ClientPrefs {
 		FlxG.save.data.noteSplashes = true;
 		FlxG.save.data.lowQuality = lowQuality;
 		FlxG.save.data.framerate = framerate;
+		FlxG.save.data.soulColor = soulColor;
 		//FlxG.save.data.cursing = cursing;
 		//FlxG.save.data.violence = violence;
 		FlxG.save.data.camZooms = camZooms;
@@ -73,6 +77,8 @@ class ClientPrefs {
 		FlxG.save.data.hideTime = hideTime;
 		FlxG.save.data.progression = progression;
 		FlxG.save.data.moreSoul = moreSoul;
+		FlxG.save.data.colorBlind = colorBlind;
+		FlxG.save.data.soulSpeed = soulSpeed;
 
 		var achieves:Array<String> = [];
 		for (i in 0...Achievements.achievementsUnlocked.length) {
@@ -94,6 +100,9 @@ class ClientPrefs {
 	public static function loadPrefs() {
 		if(FlxG.save.data.downScroll != null) {
 			downScroll = FlxG.save.data.downScroll;
+		}
+		if(FlxG.save.data.soulColor != null) {
+			soulColor = FlxG.save.data.soulColor;
 		}
 		if(FlxG.save.data.middleScroll != null) {
 			middleScroll = FlxG.save.data.middleScroll;
@@ -156,6 +165,12 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.moreSoul != null) {
 			moreSoul = FlxG.save.data.moreSoul;
+		}
+		if(FlxG.save.data.colorBlind != null) {
+			colorBlind = FlxG.save.data.colorBlind;
+		}
+		if(FlxG.save.data.soulSpeed != null) {
+			soulSpeed = FlxG.save.data.soulSpeed;
 		}
 		if(FlxG.save.data.progression != null) {
 			progression = FlxG.save.data.progression;

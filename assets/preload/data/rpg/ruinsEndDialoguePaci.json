@@ -1,0 +1,48 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You think you're so smart."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "When you spared that GOAT."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "That GHOST..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "And EVERYONE ELSE?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You'll see soon enough..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "... that this world is KILL OR BE KILLED."
+		}
+		
+
+	]
+}

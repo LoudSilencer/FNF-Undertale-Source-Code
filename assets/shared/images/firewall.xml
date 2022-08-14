@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="firewall.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fire0000" x="10" y="10" width="1982" height="1162" frameX="0" frameY="0" frameWidth="1990" frameHeight="1162"/>
+	<SubTexture name="fire0001" x="10" y="10" width="1982" height="1162" frameX="0" frameY="0" frameWidth="1990" frameHeight="1162"/>
+	<SubTexture name="fire0002" x="2002" y="10" width="1990" height="1162"/>
+	<SubTexture name="fire0003" x="2002" y="10" width="1990" height="1162"/>
+	<SubTexture name="fire0004" x="10" y="1182" width="1982" height="1162" frameX="0" frameY="0" frameWidth="1990" frameHeight="1162"/>
+	<SubTexture name="fire0005" x="10" y="1182" width="1982" height="1162" frameX="0" frameY="0" frameWidth="1990" frameHeight="1162"/>
+	<SubTexture name="fire0006" x="2002" y="1182" width="1982" height="1162" frameX="-8" frameY="0" frameWidth="1990" frameHeight="1162"/>
+	<SubTexture name="fire0007" x="2002" y="1182" width="1982" height="1162" frameX="-8" frameY="0" frameWidth="1990" frameHeight="1162"/>
+	<SubTexture name="fire0008" x="10" y="2354" width="1990" height="1162"/>
+	<SubTexture name="fire0009" x="10" y="2354" width="1990" height="1162"/>
+</TextureAtlas>

@@ -1,0 +1,65 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "RuinsSphere",
+			"previous":	"Ruins1",
+			"next": "Ruins2",
+			"exitX": 1404,
+			"exitY": 1033,
+			"mainX": 1396,
+			"mainY": 3471,
+			"areaname": "The Ruins",
+			"sectionname": "none"
+		},
+		{
+			"type": "hitbox",
+			"height": 3176,
+			"width": 1204,
+			"size": 1,
+			"x": 0,
+			"y": -303,
+			"alpha": 0
+		},
+		{
+			"type": "interactNoaccept",
+			"name": "floweyStartDialogue",
+			"completion": "floweyStart",
+			"width": 303,
+			"height": 8000,
+			"size": 1,
+			"x": -600,
+			"y": 1741,
+			"alpha": 0.90
+		},
+		{
+			"type": "cutscene",
+			"name": "RPGFlowey",
+			"size": 1,
+			"x": 1420,
+			"y": 1845,
+			"alpha": 1
+		},
+		{
+			"type": "exit",
+			"name": "1",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 1187,
+			"y": 835,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "2",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 1191,
+			"y": 3834,
+			"alpha": 0
+		}
+		
+	]
+}

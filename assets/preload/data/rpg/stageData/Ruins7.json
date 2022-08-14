@@ -1,0 +1,138 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "RuinsRoom7",
+			"previous":	"Ruins6",
+			"next": "Ruins8",
+			"mainX": 500,
+			"mainY": 3435,
+			"exitX": 3587,
+			"exitY": 855,
+			"areaname": "The Ruins",
+			"sectionname": "ruins"
+		},
+		{
+			"type": "lockbox",
+			"name": "hitbox",
+			"height": 853,
+			"width": 1483,
+			"size": 1,
+			"x": 2474,
+			"y": 244,
+			"alpha": 0
+		},
+		{
+			"type": "lock",
+			"name": "spiketrap",
+			"animdata": ["locked","unlocked"],
+			"size": 0.9,
+			"x": 2790,
+			"y": 569,
+			"alpha": 0
+		},
+		{
+			"type": "button",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 200,
+			"y": 3038,
+			"alpha": 0.8
+		},
+		{
+			"type": "button",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 800,
+			"y": 2310,
+			"alpha": 0.9
+		},
+		{
+			"type": "button",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 800,
+			"y": 1677,
+			"alpha": 0.7
+		},
+		{
+			"type": "button",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 200,
+			"y": 1026,
+			"alpha": 0.6
+		},
+		{
+			"type": "button2",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 800,
+			"y": 3038,
+			"alpha": 0.8
+		},
+		{
+			"type": "button2",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 200,
+			"y": 2310,
+			"alpha": 0.9
+		},
+		{
+			"type": "button2",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 200,
+			"y": 1677,
+			"alpha": 0.7
+		},
+		{
+			"type": "button2",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 800,
+			"y": 1026,
+			"alpha": 0.6
+		},
+		{
+			"type": "hitbox",
+			"height": 3030,
+			"width": 3040,
+			"size": 1,
+			"x": 1144,
+			"y": 1138,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 4318,
+			"width": 1104,
+			"size": 1,
+			"x": -30,
+			"y": -458,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "2",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 282,
+			"y": 3834,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "1",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 3379,
+			"y": 635,
+			"alpha": 0
+		}
+		
+	]
+}

@@ -1,0 +1,2595 @@
+{
+	"song": {
+		"player1": "bf",
+		"player2": "none",
+		"notes": [
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						545.454545454545,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						1090.90909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						1636.36363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						0,
+						-1,
+						"Change Soulstate",
+						"0",
+						""
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						2181.81818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						3272.72727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Down"
+					],
+					[
+						3818.18181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Down"
+					],
+					[
+						2727.27272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						4363.63636363636,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Down"
+					],
+					[
+						4909.09090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Down"
+					],
+					[
+						5454.54545454545,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Down"
+					],
+					[
+						6000,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Down"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						6545.45454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						6818.18181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						7090.90909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Down"
+					],
+					[
+						8181.81818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Down"
+					],
+					[
+						8454.54545454545,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Down"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						8727.27272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Down"
+					],
+					[
+						9818.18181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Down"
+					],
+					[
+						9826.70454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						9835.22727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						9843.75,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Right"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						12000,
+						0,
+						0,
+						"Heal Note"
+					],
+					[
+						11454.5454545455,
+						-1,
+						"Change Soulstate",
+						"1",
+						""
+					],
+					[
+						12545.4545454545,
+						3,
+						0,
+						"Heal Note"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						13363.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						13636.3636363636,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						13909.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						14181.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						14454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						14727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						15000,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						13090.9090909091,
+						-1,
+						"Change Soulstate",
+						"0",
+						""
+					],
+					[
+						13090.9090909091,
+						1,
+						0,
+						"Heal Note"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						15272.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						15545.4545454545,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						15818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						16636.3636363636,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						16909.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						16090.9090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						17454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						17727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						18000,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						18272.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						18545.4545454545,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						18818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						19090.9090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						19363.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						19636.3636363636,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						19772.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						19909.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						20045.4545454545,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						20181.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						21272.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						21409.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						21545.4545454545,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						21681.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						21818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						22909.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						22914.7727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						22920.4545454546,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						22926.1363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						22931.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						22937.5,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						24545.4545454546,
+						-1,
+						"Change Soulstate",
+						"1",
+						""
+					],
+					[
+						25090.9090909091,
+						1,
+						0,
+						"Heal Note"
+					],
+					[
+						25636.3636363636,
+						2,
+						0,
+						"Heal Note"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						26181.8181818182,
+						-1,
+						"Change Soulstate",
+						"0",
+						""
+					],
+					[
+						26454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						26727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						27000,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						27272.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						27545.4545454546,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						27818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						28090.9090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						26181.8181818182,
+						1,
+						0,
+						"Heal Note"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						28363.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						28636.3636363636,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						28909.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						29181.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						29454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						29727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						30000,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						30545.4545454546,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						30818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						31090.9090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						31363.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						31636.3636363637,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						31909.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						32181.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						32454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						32727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						33000,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						33272.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						33545.4545454546,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						33818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						34090.9090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						34363.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						34636.3636363637,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						34909.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						35181.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						35454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						36000,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						36272.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						36545.4545454546,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						36818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						37090.9090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						37363.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						37636.3636363637,
+						-1,
+						"Change Soulstate",
+						"1",
+						""
+					],
+					[
+						38181.8181818182,
+						0,
+						0,
+						"Heal Note"
+					],
+					[
+						38727.2727272727,
+						3,
+						0,
+						"Heal Note"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						39272.7272727273,
+						-1,
+						"Change Soulstate",
+						"0",
+						""
+					],
+					[
+						39545.4545454546,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						39818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						40090.9090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						40363.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						40636.3636363637,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						40909.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						41181.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						39272.7272727273,
+						2,
+						0
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						41454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						41727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						42000,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						42545.4545454546,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						42818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						42272.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						43090.9090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						43363.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						43636.3636363637,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						43909.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						44181.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						44454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						44727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						45000,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						45272.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						45818.1818181818,
+						-1,
+						"Change Soulstate",
+						"1",
+						""
+					],
+					[
+						46636.3636363637,
+						0,
+						0
+					],
+					[
+						46909.0909090909,
+						1,
+						0
+					],
+					[
+						47181.8181818182,
+						2,
+						0
+					],
+					[
+						47454.5454545455,
+						3,
+						0
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						48000,
+						1,
+						0
+					],
+					[
+						48545.4545454546,
+						2,
+						0
+					],
+					[
+						48818.1818181818,
+						0,
+						0
+					],
+					[
+						49090.9090909091,
+						1,
+						0
+					],
+					[
+						49909.0909090909,
+						3,
+						0
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						50181.8181818182,
+						0,
+						0
+					],
+					[
+						50454.5454545455,
+						1,
+						0
+					],
+					[
+						50727.2727272728,
+						3,
+						0
+					],
+					[
+						51272.7272727273,
+						0,
+						0
+					],
+					[
+						51818.1818181819,
+						2,
+						0
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						52363.6363636364,
+						-1,
+						"Change Soulstate",
+						"0",
+						""
+					],
+					[
+						52636.3636363637,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						52909.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						53181.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						53454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						53727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						54000,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						54272.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						54545.4545454546,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						54818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						55090.9090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						55636.3636363637,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						55909.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						55363.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Left"
+					],
+					[
+						56181.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						56454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						56727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						57000,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						57272.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						57545.4545454546,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						57818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						58090.9090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					],
+					[
+						58363.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultSpear",
+						"Right"
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						58909.0909090909,
+						-1,
+						"Change Soulstate",
+						"1",
+						""
+					],
+					[
+						59727.2727272727,
+						0,
+						0
+					],
+					[
+						60000,
+						1,
+						0
+					],
+					[
+						60272.7272727273,
+						2,
+						0
+					],
+					[
+						60545.4545454546,
+						3,
+						0
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						61090.9090909091,
+						1,
+						0
+					],
+					[
+						61636.3636363637,
+						2,
+						0
+					],
+					[
+						61909.0909090909,
+						0,
+						0
+					],
+					[
+						62181.8181818182,
+						1,
+						0
+					],
+					[
+						63000,
+						3,
+						0
+					],
+					[
+						62454.5454545455,
+						0,
+						0
+					],
+					[
+						62727.2727272728,
+						2,
+						0
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						63272.7272727273,
+						0,
+						0
+					],
+					[
+						63545.4545454546,
+						1,
+						0
+					],
+					[
+						63818.1818181818,
+						3,
+						0
+					],
+					[
+						64363.6363636364,
+						0,
+						0
+					],
+					[
+						64909.0909090909,
+						2,
+						0
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						67363.6363636364,
+						2,
+						0
+					],
+					[
+						67302.2727272728,
+						3,
+						0
+					]
+				],
+				"altAnim": false,
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						67636.3636363637,
+						0,
+						0
+					],
+					[
+						67909.090909091,
+						1,
+						0
+					],
+					[
+						68181.8181818182,
+						3,
+						0
+					],
+					[
+						68454.5454545455,
+						0,
+						0
+					],
+					[
+						68727.2727272728,
+						2,
+						477.272727272727
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						70636.3636363637,
+						2,
+						0
+					],
+					[
+						70578.4090909091,
+						0,
+						0
+					],
+					[
+						70909.0909090909,
+						3,
+						0
+					],
+					[
+						71181.8181818182,
+						1,
+						0
+					],
+					[
+						71454.5454545455,
+						0,
+						0
+					],
+					[
+						71727.2727272728,
+						2,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						72000,
+						3,
+						477.272727272727
+					],
+					[
+						73909.0909090909,
+						0,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						74181.8181818182,
+						2,
+						0
+					],
+					[
+						74454.5454545455,
+						3,
+						0
+					],
+					[
+						74727.2727272727,
+						0,
+						0
+					],
+					[
+						75000,
+						1,
+						0
+					],
+					[
+						75272.7272727273,
+						3,
+						0
+					],
+					[
+						75545.4545454546,
+						2,
+						0
+					],
+					[
+						75818.1818181818,
+						0,
+						0
+					],
+					[
+						76090.9090909091,
+						2,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						76363.6363636364,
+						1,
+						0
+					],
+					[
+						76636.3636363637,
+						0,
+						0
+					],
+					[
+						76909.0909090909,
+						3,
+						"Change Soulstate"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						78545.4545454546,
+						-1,
+						"Change Soulstate",
+						"0",
+						""
+					],
+					[
+						79363.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						80181.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						80454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						80727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						81000,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						81272.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						81545.4545454546,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						81818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						82636.3636363636,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						81204.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						81238.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						83454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						83727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						84000,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						84272.7272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						84545.4545454545,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						84477.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						84511.3636363636,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						84818.1818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						85090.9090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						85909.0909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						86454.5454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						86727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						87545.4545454545,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						88090.9090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						88363.6363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						89181.8181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						89727.2727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						90000,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						90545.4545454545,
+						-1,
+						"Change Soulstate",
+						"1",
+						""
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"sectionNotes": [
+					[
+						91636.3636363636,
+						1,
+						681.818181818182
+					],
+					[
+						92454.5454545454,
+						2,
+						409.090909090909
+					],
+					[
+						93000,
+						1,
+						0
+					],
+					[
+						93272.7272727273,
+						0,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 110
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						93818.1818181818,
+						1,
+						0
+					],
+					[
+						94090.9090909091,
+						3,
+						0
+					],
+					[
+						94636.3636363636,
+						2,
+						0
+					],
+					[
+						94909.0909090909,
+						0,
+						0
+					],
+					[
+						95553.4090909091,
+						3,
+						0
+					],
+					[
+						95662.5,
+						2,
+						0
+					],
+					[
+						95727.2727272727,
+						0,
+						0
+					]
+				],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						96000,
+						1,
+						0
+					],
+					[
+						96272.7272727273,
+						3,
+						0
+					],
+					[
+						96545.4545454545,
+						0,
+						750
+					]
+				],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						99000,
+						2,
+						409.090909090909
+					],
+					[
+						98181.8181818181,
+						1,
+						613.636363636364
+					],
+					[
+						99545.4545454545,
+						0,
+						0
+					],
+					[
+						99818.1818181818,
+						3,
+						0
+					]
+				],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						100363.636363636,
+						0,
+						0
+					],
+					[
+						100636.363636364,
+						1,
+						0
+					],
+					[
+						101181.818181818,
+						3,
+						0
+					],
+					[
+						101454.545454545,
+						2,
+						0
+					],
+					[
+						101454.545454545,
+						0,
+						0
+					],
+					[
+						101727.272727273,
+						1,
+						0
+					],
+					[
+						102000,
+						0,
+						0
+					],
+					[
+						102272.727272727,
+						1,
+						0
+					],
+					[
+						102272.727272727,
+						3,
+						0
+					]
+				],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						102545.454545455,
+						0,
+						0
+					],
+					[
+						102818.181818182,
+						1,
+						0
+					],
+					[
+						103090.909090909,
+						3,
+						0
+					],
+					[
+						103090.909090909,
+						0,
+						0
+					],
+					[
+						103636.363636364,
+						1,
+						0
+					],
+					[
+						103636.363636364,
+						3,
+						0
+					],
+					[
+						103909.090909091,
+						0,
+						0
+					],
+					[
+						103909.090909091,
+						2,
+						0
+					],
+					[
+						104454.545454545,
+						3,
+						0
+					],
+					[
+						104454.545454545,
+						0,
+						"Change Soulstate"
+					]
+				],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						104727.272727273,
+						-1,
+						"Change Soulstate",
+						"0",
+						""
+					],
+					[
+						105272.727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						105545.454545455,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						106090.909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						106363.636363636,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						106909.090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						107181.818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						107727.272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						108000,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						108545.454545454,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						108818.181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						109636.363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						109363.636363636,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						110181.818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						110454.545454545,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					],
+					[
+						111000,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Up"
+					]
+				],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						111272.727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						111818.181818182,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						112090.909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						112636.363636364,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						112909.090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					]
+				],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						113454.545454545,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						113727.272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						114272.727272727,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						114545.454545454,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						115090.909090909,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						115363.636363636,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					]
+				],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						115909.090909091,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						116181.818181818,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						116727.272727273,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					],
+					[
+						117000,
+						-1,
+						"Spawn Bullet",
+						"defaultProjectile",
+						"Left"
+					]
+				],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						117818.181818182,
+						-1,
+						"Change Soulstate",
+						"1",
+						""
+					]
+				],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 110,
+				"changeBPM": false,
+				"mustHitSection": true
+			}
+		],
+		"player3": "gf",
+		"song": "Ruins1",
+		"stage": "ruins",
+		"validScore": true,
+		"needsVoices": false,
+		"speed": 2.6,
+		"bpm": 110
+	}
+}

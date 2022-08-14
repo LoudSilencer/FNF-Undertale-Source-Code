@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="torielGeno.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Injured0000" x="10" y="10" width="634" height="1053"/>
+	<SubTexture name="Injured0001" x="10" y="10" width="634" height="1053"/>
+	<SubTexture name="Injured0002" x="10" y="10" width="634" height="1053"/>
+	<SubTexture name="Injured0003" x="10" y="10" width="634" height="1053"/>
+	<SubTexture name="Injured0004" x="10" y="10" width="634" height="1053"/>
+	<SubTexture name="Injured0005" x="10" y="10" width="634" height="1053"/>
+	<SubTexture name="Shatter0000" x="654" y="10" width="1902" height="3144" frameX="-12" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0001" x="654" y="10" width="1902" height="3144" frameX="-8" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0002" x="654" y="10" width="1902" height="3144" frameX="-12" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0003" x="654" y="10" width="1902" height="3144" frameX="-8" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0004" x="654" y="10" width="1902" height="3144" frameX="-12" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0005" x="654" y="10" width="1902" height="3144" frameX="-8" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0006" x="654" y="10" width="1902" height="3144" frameX="-12" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0007" x="654" y="10" width="1902" height="3144" frameX="-8" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0008" x="654" y="10" width="1902" height="3144" frameX="-12" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0009" x="654" y="10" width="1902" height="3144" frameX="-8" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0010" x="654" y="10" width="1902" height="3144" frameX="-12" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0011" x="654" y="10" width="1902" height="3144" frameX="-8" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0012" x="654" y="10" width="1902" height="3144" frameX="-12" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0013" x="654" y="10" width="1902" height="3144" frameX="-8" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0014" x="654" y="10" width="1902" height="3144" frameX="-12" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0015" x="654" y="10" width="1902" height="3144" frameX="-8" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0016" x="654" y="10" width="1902" height="3144" frameX="-12" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0017" x="654" y="10" width="1902" height="3144" frameX="-8" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0018" x="654" y="10" width="1902" height="3144" frameX="-12" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0019" x="654" y="10" width="1902" height="3144" frameX="-8" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0020" x="654" y="10" width="1902" height="3144" frameX="-12" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0021" x="654" y="10" width="1902" height="3144" frameX="-8" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0022" x="654" y="10" width="1902" height="3144" frameX="-12" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0023" x="2566" y="10" width="1902" height="3144" frameX="0" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0024" x="2566" y="10" width="1902" height="3144" frameX="-31" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0025" x="2566" y="10" width="1902" height="3144" frameX="-28" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0026" x="2566" y="10" width="1902" height="3144" frameX="-28" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0027" x="2566" y="10" width="1902" height="3144" frameX="-28" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0028" x="2566" y="10" width="1902" height="3144" frameX="-28" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0029" x="4478" y="10" width="1902" height="3144" frameX="-56" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0030" x="4478" y="10" width="1902" height="3144" frameX="-46" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0031" x="4478" y="10" width="1902" height="3144" frameX="-42" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0032" x="4478" y="10" width="1902" height="3144" frameX="-40" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0033" x="4478" y="10" width="1902" height="3144" frameX="-39" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0034" x="10" y="3164" width="1902" height="3144" frameX="-14" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0035" x="10" y="3164" width="1902" height="3144" frameX="-19" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0036" x="10" y="3164" width="1902" height="3144" frameX="-22" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0037" x="10" y="3164" width="1902" height="3144" frameX="-25" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0038" x="10" y="3164" width="1902" height="3144" frameX="-25" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0039" x="10" y="3164" width="1902" height="3144" frameX="-25" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0040" x="10" y="3164" width="1902" height="3144" frameX="-25" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0041" x="10" y="3164" width="1902" height="3144" frameX="-25" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0042" x="10" y="3164" width="1902" height="3144" frameX="-25" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0043" x="10" y="3164" width="1902" height="3144" frameX="-25" frameY="0" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0044" x="1922" y="3164" width="234" height="220" frameX="-897" frameY="-1481" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0045" x="2166" y="3164" width="592" height="490" frameX="-718" frameY="-1360" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0046" x="2768" y="3164" width="948" height="758" frameX="-541" frameY="-1240" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0047" x="3726" y="3164" width="1304" height="1026" frameX="-363" frameY="-1120" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shatter0048" x="5040" y="3164" width="1662" height="1294" frameX="-184" frameY="-1000" frameWidth="1958" frameHeight="3144"/>
+	<SubTexture name="Shocked0000" x="6712" y="3164" width="634" height="1053"/>
+	<SubTexture name="Shocked0001" x="6712" y="3164" width="634" height="1053"/>
+	<SubTexture name="Shocked0002" x="6712" y="3164" width="634" height="1053"/>
+	<SubTexture name="Shocked0003" x="6712" y="3164" width="634" height="1053"/>
+	<SubTexture name="Shocked0004" x="6712" y="3164" width="634" height="1053"/>
+	<SubTexture name="Shocked0005" x="6712" y="3164" width="634" height="1053"/>
+	<SubTexture name="Slashed0000" x="7356" y="3164" width="634" height="1053" frameX="0" frameY="0" frameWidth="643" frameHeight="1053"/>
+	<SubTexture name="Slashed0001" x="7356" y="3164" width="634" height="1053" frameX="-9" frameY="0" frameWidth="643" frameHeight="1053"/>
+	<SubTexture name="Slashed0002" x="7356" y="3164" width="634" height="1053" frameX="-2" frameY="0" frameWidth="643" frameHeight="1053"/>
+	<SubTexture name="Slashed0003" x="7356" y="3164" width="634" height="1053" frameX="-7" frameY="0" frameWidth="643" frameHeight="1053"/>
+	<SubTexture name="Slashed0004" x="7356" y="3164" width="634" height="1053" frameX="-4" frameY="0" frameWidth="643" frameHeight="1053"/>
+	<SubTexture name="Slashed0005" x="7356" y="3164" width="634" height="1053" frameX="-5" frameY="0" frameWidth="643" frameHeight="1053"/>
+	<SubTexture name="Slashed0006" x="7356" y="3164" width="634" height="1053" frameX="-5" frameY="0" frameWidth="643" frameHeight="1053"/>
+	<SubTexture name="Slashed0007" x="7356" y="3164" width="634" height="1053" frameX="-5" frameY="0" frameWidth="643" frameHeight="1053"/>
+	<SubTexture name="Slashed0008" x="7356" y="3164" width="634" height="1053" frameX="-5" frameY="0" frameWidth="643" frameHeight="1053"/>
+	<SubTexture name="Slashed0009" x="7356" y="3164" width="634" height="1053" frameX="-5" frameY="0" frameWidth="643" frameHeight="1053"/>
+	<SubTexture name="Slashed0010" x="7356" y="3164" width="634" height="1053" frameX="-5" frameY="0" frameWidth="643" frameHeight="1053"/>
+</TextureAtlas>

@@ -1,0 +1,39 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...no."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I was wrong to force you to stay here."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "If it's your choice to leave, then I won't stop you."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Just... don't come back."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...and make ASGORE pay."
+		}
+	]
+}

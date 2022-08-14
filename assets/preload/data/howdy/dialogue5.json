@@ -1,0 +1,46 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "evilflowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You're doing this just to spite me, aren't you?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "evilflowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Or you're looking for some kind of secret."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "evilflowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well, there's no secret here, bud."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "evilflowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "But... you might wanna get hit by the Dummy's bullet."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "evilflowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Miss a bunch of notes, too."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "evilflowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Something might happen."
+		}
+	]
+}

@@ -3,76 +3,131 @@
 		{
 			"loop": true,
 			"offsets": [
-				683,
-				169
+				-60,
+				-410
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "FloweyIdle02",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-60,
+				-410
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "Idle",
+			"name": "FloweyIdle01",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				680,
-				150
+				61,
+				-450
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "FloweyLeft02",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				61,
+				-450
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "FloweyLeft01",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				-450
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "Down",
+			"name": "FloweyDown01",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				684,
-				181
+				-70,
+				-450
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "FloweyDown02",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-76,
+				-350
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "Up",
+			"name": "FloweyUp01",
 			"indices": []
 		},
 		{
-			"offsets": [
-				666,
-				164
-			],
-			"indices": [],
-			"fps": 40,
-			"anim": "singRIGHT",
 			"loop": false,
-			"name": "Right"
+			"offsets": [
+				-76,
+				-330
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "FloweyUp02",
+			"indices": []
 		},
 		{
-			"offsets": [
-				710,
-				167
-			],
-			"indices": [],
-			"fps": 40,
-			"anim": "singLEFT",
 			"loop": false,
-			"name": "Left"
+			"offsets": [
+				-203,
+				-449
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "FloweyRight01",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-203,
+				-440
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "FloweyRight02",
+			"indices": []
 		}
 	],
-	"no_antialiasing": false,
-	"image": "characters/OmegaFlowey",
+	"no_antialiasing": true,
+	"image": "characters/Flowey",
 	"position": [
-		-660,
-		-480
+		340,
+		-130
 	],
-	"healthicon": "pico",
+	"healthicon": "none",
 	"flip_x": false,
 	"healthbar_colors": [
-		0,
-		0,
+		255,
+		255,
 		0
 	],
 	"camera_position": [
-		-210,
-		210
+		-190,
+		320
 	],
-	"sing_duration": 4,
-	"scale": 1.399999999999998
+	"sing_duration": 6.1,
+	"scale": 1.4
 }

@@ -1,0 +1,30 @@
+{
+	"songs": [
+		[
+			"Froggit",
+			"bar",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"derpToriel",
+		"bf",
+		"gf"
+	],
+	"storyName": "in this world it's rap or die",
+	"weekName": "froggit",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

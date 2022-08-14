@@ -1,0 +1,86 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "RuinsRoom6",
+			"previous":	"Ruins5",
+			"next": "Ruins7",
+			"mainX": 394,
+			"mainY": 934,
+			"exitX": 3387,
+			"exitY": 966,
+			"areaname": "A Ghost's Hiding Spot",
+			"sectionname": "ruins"
+		},
+		{
+			"type": "interactNoaccept",
+			"name": "blookyStartDialogue",
+			"completion": "blookyStart",
+			"height": 1473,
+			"width": 1447,
+			"size": 1,
+			"x": 1364,
+			"y": 723,
+			"alpha": 0.90
+		},
+		{
+			"type": "animated",
+			"name": "savestar",
+			"animdata": ["spin","SavePoint"],
+			"size": 0.5,
+			"x": -380,
+			"y": 630,
+			"alpha": 0
+		},
+		{
+			"type": "interact",
+			"name": "saveDialogueBlooky",
+			"completion": "gotoOptions",
+			"height": 761,
+			"width": 683,
+			"size": 1,
+			"x": 81,
+			"y": 1135,
+			"alpha": 0.80
+		},
+		{
+			"type": "hitbox",
+			"height": 4072,
+			"width": 738,
+			"size": 1,
+			"x": -51,
+			"y": -40,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 1480,
+			"width": 622,
+			"size": 1,
+			"x": 1261,
+			"y": 493,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "2",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 200,
+			"y": 670,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "1",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 3173,
+			"y": 670,
+			"alpha": 0
+		}
+		
+	]
+}

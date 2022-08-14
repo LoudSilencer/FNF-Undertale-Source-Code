@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "WHIMSUM_FIXED_IDLE"
+		},
+		{
+			"offsets": [
+				14,
+				101
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "UP_WHIMSUM_FIXED"
+		},
+		{
+			"offsets": [
+				180,
+				-43
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "LEFT_POSE"
+		},
+		{
+			"offsets": [
+				-70,
+				-30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "RIGHT_POSE"
+		},
+		{
+			"offsets": [
+				-20,
+				-100
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "DOWN_POSE"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/whimsum_sprites",
+	"position": [
+		-50,
+		-30
+	],
+	"healthicon": "mom",
+	"flip_x": false,
+	"healthbar_colors": [
+		216,
+		85,
+		142
+	],
+	"camera_position": [
+		160,
+		160
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

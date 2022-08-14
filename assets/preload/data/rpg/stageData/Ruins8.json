@@ -1,0 +1,165 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "RuinsRoom8",
+			"previous":	"Ruins7",
+			"next": "Ruins9",
+			"mainX": 292,
+			"mainY": 2542,
+			"exitX": 3287,
+			"exitY": 3488,
+			"areaname": "The Ruins",
+			"sectionname": "ruins"
+		},
+		{
+			"type": "lockbox",
+			"name": "hitbox",
+			"height": 543,
+			"width": 1494,
+			"size": 1,
+			"x": 2679,
+			"y": 1138,
+			"alpha": 0
+		},
+		{
+			"type": "lock",
+			"name": "spiketrap",
+			"animdata": ["locked","unlocked"],
+			"size": 0.9,
+			"x": 2765,
+			"y": 1946,
+			"alpha": 0
+		},
+		{
+			"type": "lock",
+			"name": "spiketrap",
+			"animdata": ["locked","unlocked"],
+			"size": 0.9,
+			"x": 2765,
+			"y": 1266,
+			"alpha": 0
+		},
+		{
+			"type": "button",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 35,
+			"y": 815,
+			"alpha": 0.8
+		},
+		{
+			"type": "button",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 1053,
+			"y": 695,
+			"alpha": 0.9
+		},
+		{
+			"type": "button",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 1420,
+			"y": 815,
+			"alpha": 0.7
+		},
+		{
+			"type": "button",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 2139,
+			"y": 695,
+			"alpha": 0.6
+		},
+		{
+			"type": "button2",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 357,
+			"y": 815,
+			"alpha": 0.8
+		},
+		{
+			"type": "button2",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 741,
+			"y": 695,
+			"alpha": 0.9
+		},
+		{
+			"type": "button2",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 1732,
+			"y": 815,
+			"alpha": 0.7
+		},
+		{
+			"type": "button2",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 2427,
+			"y": 695,
+			"alpha": 0.6
+		},
+		{
+			"type": "hitbox",
+			"height": 1996,
+			"width": 589,
+			"size": 1,
+			"x": 2679,
+			"y": 628,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 4318,
+			"width": 1104,
+			"size": 1,
+			"x": -40,
+			"y": -463,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 930,
+			"width": 894,
+			"size": 1,
+			"x": -30,
+			"y": 3159,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 1992,
+			"width": 1542,
+			"size": 1,
+			"x": 772,
+			"y": 2565,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "2",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 78,
+			"y": 3034,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "1",
+			"height": 1273,
+			"width": 165,
+			"size": 1,
+			"x": 2800,
+			"y": 3845,
+			"alpha": 0
+		}
+		
+	]
+}

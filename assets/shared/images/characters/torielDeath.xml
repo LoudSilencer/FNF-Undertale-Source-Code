@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="torielDeath.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="deathSeq0000" x="10" y="10" width="634" height="1053" frameX="-363" frameY="-429" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0001" x="654" y="10" width="634" height="1053" frameX="-363" frameY="-429" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0002" x="1298" y="10" width="634" height="1053" frameX="-363" frameY="-429" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0003" x="1942" y="10" width="634" height="1053" frameX="-363" frameY="-429" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0004" x="2586" y="10" width="634" height="1053" frameX="-363" frameY="-429" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0005" x="3230" y="10" width="634" height="1053" frameX="-363" frameY="-429" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0006" x="3874" y="10" width="634" height="1053" frameX="-363" frameY="-429" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0007" x="4518" y="10" width="1329" height="1581" frameX="0" frameY="-68" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0008" x="5857" y="10" width="1328" height="1571" frameX="-3" frameY="-63" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0009" x="10" y="1601" width="1327" height="1560" frameX="-6" frameY="-58" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0010" x="1347" y="1601" width="1326" height="1551" frameX="-9" frameY="-52" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0011" x="2683" y="1601" width="1325" height="1540" frameX="-13" frameY="-47" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0012" x="4018" y="1601" width="1324" height="1530" frameX="-16" frameY="-42" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0013" x="5352" y="1601" width="1323" height="1519" frameX="-19" frameY="-37" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0014" x="6685" y="1601" width="1322" height="1510" frameX="-22" frameY="-31" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0015" x="10" y="3171" width="1321" height="1499" frameX="-26" frameY="-26" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0016" x="1341" y="3171" width="1320" height="1489" frameX="-29" frameY="-21" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0017" x="2671" y="3171" width="1319" height="1478" frameX="-32" frameY="-16" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0018" x="4000" y="3171" width="1317" height="1472" frameX="-36" frameY="-10" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0019" x="5327" y="3171" width="1317" height="1477" frameX="-39" frameY="-5" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0020" x="6654" y="3171" width="1316" height="1482" frameX="-42" frameY="0" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0021" x="10" y="4680" width="634" height="1053" frameX="-363" frameY="-429" frameWidth="1358" frameHeight="1649"/>
+	<SubTexture name="deathSeq0022" x="654" y="4680" width="634" height="1053" frameX="-363" frameY="-429" frameWidth="1358" frameHeight="1649"/>
+</TextureAtlas>

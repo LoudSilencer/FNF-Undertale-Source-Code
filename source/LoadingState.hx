@@ -157,7 +157,6 @@ class LoadingState extends MusicBeatState
 		StageData.forceNextDirectory = null;
 
 		if(weekDir != null && weekDir.length > 0 && weekDir != '') directory = weekDir;
-
 		Paths.setCurrentLevel(directory);
 		trace('Setting asset folder to ' + directory);
 

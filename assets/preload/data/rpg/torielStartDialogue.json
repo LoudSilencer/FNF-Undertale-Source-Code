@@ -1,0 +1,46 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Beyond this door is the exit to the RUINS."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I am going to destroy it."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "No humans will ever die here again."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "If you wish to get past me..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...then prove to me that you're strong enough..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "To survive out THERE."
+		}
+	]
+}

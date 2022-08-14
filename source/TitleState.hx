@@ -167,23 +167,13 @@ class TitleState extends MusicBeatState
 			transIn = FlxTransitionableState.defaultTransIn;
 			transOut = FlxTransitionableState.defaultTransOut;*/
 
-			// HAD TO MODIFY SOME BACKEND SHIT
-			// IF THIS PR IS HERE IF ITS ACCEPTED UR GOOD TO GO
-			// https://github.com/HaxeFlixel/flixel-addons/pull/348
-
-			// var music:FlxSound = new FlxSound();
-			// music.loadStream(Paths.music('freakyMenu'));
-			// FlxG.sound.list.add(music);
-			// music.play();
-
 			if(FlxG.sound.music == null) {
-				FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+				FlxG.sound.playMusic(Paths.music('freakyMenu'), 1);
 
-				FlxG.sound.music.fadeIn(4, 0, 0.7);
 			}
 		}
 
-		Conductor.changeBPM(110/2);
+		Conductor.changeBPM(131/4);
 		persistentUpdate = true;
 		FlxG.camera.zoom = 1.2;
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('stageback'));
@@ -195,7 +185,7 @@ class TitleState extends MusicBeatState
 		// bg.antialiasing = ClientPrefs.globalAntialiasing;
 		// bg.updateHitbox();
 		add(bg);
-		FlxTween.tween(bg, {alpha: 1}, 550, {ease: FlxEase.circOut});
+		//FlxTween.tween(bg, {alpha: 1}, 550, {ease: FlxEase.circOut});
 
 		logoBl = new FlxSprite(-150, -100);
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
@@ -331,7 +321,7 @@ class TitleState extends MusicBeatState
 
 		// EASTER EGG
 
-		if (!transitioning && skippedIntro)
+		if (!transitioning)
 		{
 			if(pressedEnter)
 			{
@@ -341,13 +331,11 @@ class TitleState extends MusicBeatState
 				new FlxTimer().start(.1, function(tmr:FlxTimer)
 				{
 					if (mustUpdate) {
-						RPGState.area = "SaveM";
-						MusicBeatState.switchState(new OutdatedState());
+						//RPGState.area = "Ruins1";
+						//MusicBeatState.switchState(new OutdatedState());
 					} else {
-						FlxG.sound.music.stop();
-						RPGState.triggerMusic = true;
-						RPGState.area = "SaveM";
-						MusicBeatState.switchState(new RPGState());
+						//FlxG.sound.music.stop();
+						MusicBeatState.switchState(new RPGLoadingSaveState());
 						//MusicBeatState.switchState(new MainMenuState());
 					}
 					closedState = true;
@@ -407,11 +395,11 @@ class TitleState extends MusicBeatState
 		super.update(elapsed);
 	}
 
-	function createCoolText(textArray:Array<String>, ?offset:Float = 0)
+	function createCoolText(textArray:Array<String>, ?offset:Float = 800)
 	{
 		for (i in 0...textArray.length)
 		{
-			var money:Alphabet = new Alphabet(0, 0, textArray[i], true, false,0.05,.4);
+			var money:Alphabet = new Alphabet(0, 0, textArray[i], true, false,0.05,.4,"dialogue","White");
 			money.screenCenter(X);
 			money.y += (i * 60) + 200 + offset * .4;
 			credGroup.add(money);
@@ -419,10 +407,10 @@ class TitleState extends MusicBeatState
 		}
 	}
 
-	function addMoreText(text:String, ?offset:Float = 0)
+	function addMoreText(text:String, ?offset:Float = 800)
 	{
 		if(textGroup != null) {
-			var coolText:Alphabet = new Alphabet(0, 0, text, true, false,0.05,.4);
+			var coolText:Alphabet = new Alphabet(0, 0, text, true, false,0.05,.4,"dialogue","White");
 			coolText.screenCenter(X);
 			coolText.y += (textGroup.length * 60) + 200 + offset * .4;
 			credGroup.add(coolText);
@@ -444,7 +432,6 @@ class TitleState extends MusicBeatState
 	override function beatHit()
 	{
 		super.beatHit();
-		FlxG.camera.shake(0.001, 2);
 		
 		if (sickBeats % 2 == 1)
 		{
@@ -466,53 +453,118 @@ class TitleState extends MusicBeatState
 				gfDance.animation.play('danceLeft');
 		}
 
+		var s1:FlxSprite;
+		s1 = new FlxSprite(-80).loadGraphic(Paths.image('Scene1'));
+		s1.setGraphicSize(Std.int(s1.width/2));
+		s1.updateHitbox();
+		s1.screenCenter();
+		s1.y -= 100;
+		s1.visible = false;
+		s1.alpha = 1;
+
+		var s2:FlxSprite;
+		s2 = new FlxSprite(-80).loadGraphic(Paths.image('Scene2'));
+		s2.setGraphicSize(Std.int(s2.width/2));
+		s2.updateHitbox();
+		s2.screenCenter();
+		s2.y -= 100;
+		s2.visible = false;
+		s2.alpha = 1;
+
+		var s3:FlxSprite;
+		s3 = new FlxSprite(-80).loadGraphic(Paths.image('Scene3'));
+		s3.setGraphicSize(Std.int(s3.width/2));
+		s3.updateHitbox();
+		s3.screenCenter();
+		s3.y -= 100;
+		s3.visible = false;
+		s3.alpha = 1;
+
+		var s4:FlxSprite;
+		s4 = new FlxSprite(-80).loadGraphic(Paths.image('Scene4'));
+		s4.setGraphicSize(Std.int(s4.width/2));
+		s4.updateHitbox();
+		s4.screenCenter();
+		s4.y -= 100;
+		s4.visible = false;
+		s4.alpha = 1;
+
+		var s5:FlxSprite;
+		s5 = new FlxSprite(-80).loadGraphic(Paths.image('Scene5'));
+		s5.setGraphicSize(Std.int(s5.width/2));
+		s5.updateHitbox();
+		s5.screenCenter();
+		s5.y -= 100;
+		s5.visible = false;
+		s5.alpha = 1;	
+
+		var s6:FlxSprite;
+		s6 = new FlxSprite(-80).loadGraphic(Paths.image('Scene6'));
+		s6.setGraphicSize(Std.int(s6.width/2));
+		s6.updateHitbox();
+		s6.screenCenter();
+		s6.y -= 100;
+		s6.visible = false;
+		s6.alpha = 1;
+
+		add(s1);
+		add(s2);
+		add(s3);
+		add(s4);
+		add(s5);
+		add(s6);
+
 		if(!closedState) {
 			sickBeats++;
-			switch (sickBeats)
+			switch (sickBeats+2)
 			{
-				case 1:
-					createCoolText(["Intriguing..."], 45);
-					FlxG.sound.play(Paths.music('gasterTalk'), 0.7);
+				case 3:
+					s1.visible = true;
+					createCoolText(["Long ago... three races ruled over Earth."]);
 				case 4:
+					addMoreText("HUMANS. MONSTERS. AND DEMONS.");
+				case 6:
+					s1.visible = false;
 					deleteCoolText();
-				case 5:
-					createCoolText(["This world is... unique."], -60);
-					FlxG.sound.play(Paths.music('gasterTalk'), 0.7);
+				case 7:
+					s2.visible = true;
+					createCoolText(["One day... war broke out between the humans and monsters..."]);
 				case 8:
+					addMoreText("while Demons were neutral.");
+				case 10:
+					s2.visible = false;
 					deleteCoolText();
-				case 9:
-					createCoolText(["I wonder how THEY will respond..."], -60);
-					FlxG.sound.play(Paths.music('gasterTalk'), 0.7);
-				case 12:
-					deleteCoolText();
+				case 11:
+					s3.visible = true;
+					createCoolText(["After a long battle... the humans were victorious."]);
 				case 13:
-					if (ClientPrefs.progression == 0)
-						createCoolText(["Welcome Player."], -60);
-					else
-						createCoolText(["Welcome Back."], -60);
-					FlxG.sound.play(Paths.music('gasterTalk'), 0.7);
-				case 16:
+					s3.visible = false;
 					deleteCoolText();
+				case 14:
+					s4.visible = true;
+					createCoolText(["They sealed the monsters underground with a magic spell."]);
 				case 17:
-					if (ClientPrefs.progression != 0)
-						createCoolText(["If you already know the rules to this world... press ENTER."], -60);
-					else
-						createCoolText(["Since you're new..."], -60);
-					FlxG.sound.play(Paths.music('gasterTalk'), 0.7);
+					s4.visible = false;
+					deleteCoolText();
 				case 18:
-					if (ClientPrefs.progression != 0){
-						addMoreText("If not... wait here for just a moment.", -60);
-						skippedIntro = true;
-					}
-					else
-						addMoreText("I will teach you how to play.", -60);
-					FlxG.sound.play(Paths.music('gasterTalk'), 0.7);
+					createCoolText(["Many years later..."]);
+				case 21:
+					deleteCoolText();
+				case 22:
+					s5.visible = true;
+					createCoolText(["MT.EBOTT 201X."]);
+				case 25:
+					s5.visible = false;
+					deleteCoolText();
+				case 26:
+					s6.visible = true;
+					createCoolText(["Legends say that those who climb the mountain will never return."]);
 				case 29:
-					PlayState.isStoryMode = true;
-					PlayState.SONG = Song.loadFromJson("tutorial", "tutorial");
-					PlayState.isStoryMode = false;
-					PlayState.storyDifficulty = 2;
-					LoadingState.loadAndSwitchState(new PlayState(), true);
+					s6.visible = false;
+					deleteCoolText();
+				case 30:
+
+					MusicBeatState.switchState(new RPGLoadingSaveState());
 			}
 		}
 	}

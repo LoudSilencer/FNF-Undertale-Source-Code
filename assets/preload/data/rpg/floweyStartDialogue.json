@@ -1,0 +1,68 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Howdy! I'm Flowey, Flowey the-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "OH SHIT A TALKING FLOWER"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Flowey the Flowe-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "THIS IS THE SCARIEST THING I'VE EVER SEEN"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...You done?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...yes"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...I'm Flowey! Flowey the Flower! You must be new to the underground!"
+		},	
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I'll show you what you need to know to SURVIVE!"
+		}
+
+	]
+}

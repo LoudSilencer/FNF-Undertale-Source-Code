@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="torielInjured.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idlehurt0000" x="0" y="0" width="672" height="1066" frameX="-776" frameY="-279" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0001" x="0" y="0" width="672" height="1066" frameX="-776" frameY="-279" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0002" x="673" y="0" width="654" height="1067" frameX="-785" frameY="-278" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0003" x="673" y="0" width="654" height="1067" frameX="-785" frameY="-278" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0004" x="1328" y="0" width="638" height="1068" frameX="-793" frameY="-277" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0005" x="1328" y="0" width="638" height="1068" frameX="-793" frameY="-277" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0006" x="1967" y="0" width="638" height="1069" frameX="-793" frameY="-276" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0007" x="1967" y="0" width="638" height="1069" frameX="-793" frameY="-276" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0008" x="2606" y="0" width="638" height="1070" frameX="-793" frameY="-275" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0009" x="2606" y="0" width="638" height="1070" frameX="-793" frameY="-275" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0010" x="2606" y="0" width="638" height="1070" frameX="-793" frameY="-275" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0011" x="3245" y="0" width="2475" height="1775" frameX="-7" frameY="0" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0012" x="0" y="1776" width="2475" height="1775" frameX="0" frameY="0" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0013" x="2476" y="1776" width="2475" height="1775" frameX="-3" frameY="0" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0014" x="0" y="1776" width="2475" height="1775" frameX="-1" frameY="0" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0015" x="4952" y="1776" width="2475" height="1775" frameX="-3" frameY="0" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0016" x="0" y="1776" width="2475" height="1775" frameX="-1" frameY="0" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0017" x="0" y="1776" width="2475" height="1775" frameX="-2" frameY="0" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0018" x="0" y="1776" width="2475" height="1775" frameX="-2" frameY="0" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0019" x="0" y="1776" width="2475" height="1775" frameX="-2" frameY="0" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0020" x="0" y="1776" width="2475" height="1775" frameX="-2" frameY="0" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0021" x="0" y="1776" width="2475" height="1775" frameX="-2" frameY="0" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0022" x="0" y="1776" width="2475" height="1775" frameX="-2" frameY="0" frameWidth="2482" frameHeight="1775"/>
+	<SubTexture name="idlehurt0023" x="0" y="1776" width="2475" height="1775" frameX="-2" frameY="0" frameWidth="2482" frameHeight="1775"/>
+</TextureAtlas>

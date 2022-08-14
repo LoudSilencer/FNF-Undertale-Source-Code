@@ -1,0 +1,30 @@
+{
+	"songs": [
+		[
+			"tutoriel",
+			"bar",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"toriel2",
+		"bf",
+		"gf"
+	],
+	"storyName": "in this world it's rap or die",
+	"weekName": "tutoriel",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

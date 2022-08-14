@@ -1,0 +1,121 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "RuinsRoom10",
+			"previous":	"Ruins9",
+			"next": "TorielHouseMain",
+			"mainX": 1449,
+			"mainY": 3400,
+			"exitX": 1430,
+			"exitY": 1167,
+			"areaname": "The Ruins",
+			"sectionname": "ruins"
+		},
+		{
+			"type": "interact",
+			"name": "treeRuins1",
+			"completion": "none",
+			"height": 1562,
+			"width": 896,
+			"size": 1,
+			"x": 815,
+			"y": 2221,
+			"alpha": 0.90
+		},
+		{
+			"type": "hitbox",
+			"height": 1562,
+			"width": 696,
+			"size": 1,
+			"x": 835,
+			"y": 2121,
+			"alpha": 0
+		}, 
+
+
+		{
+			"type": "hitbox",
+			"height": 801,
+			"width": 486,
+			"size": 1,
+			"x": 1181,
+			"y": 2591,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 1520,
+			"width": 904,
+			"size": 1,
+			"x": 607,
+			"y": 7,
+			"alpha": 0
+		},
+		{
+			"type": "prop",
+			"name": "ruinsTree",
+			"size": 1,
+			"x": 878,
+			"y": 1125,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 1024,
+			"width": 1164,
+			"size": 1,
+			"x": -88,
+			"y": -55,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 196,
+			"width": 2604,
+			"size": 1,
+			"x": 0,
+			"y": -4,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 824,
+			"width": 1128,
+			"size": 1,
+			"x": 2115,
+			"y": -16,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 196,
+			"width": 2604,
+			"size": 1,
+			"x": 2834,
+			"y": -70,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "1",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 1235,
+			"y": 911,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "2",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 1231,
+			"y": 3840,
+			"alpha": 0
+		}
+		
+	]
+}

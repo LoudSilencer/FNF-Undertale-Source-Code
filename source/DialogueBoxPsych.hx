@@ -50,14 +50,13 @@ typedef DialogueLine = {
 	var text:Null<String>;
 	var boxState:Null<String>;
 	var speed:Null<Float>;
+	var talkingLine:Null<String>;
 }
-
 class DialogueCharacter extends FlxSprite
 {
 	private static var IDLE_SUFFIX:String = '-IDLE';
 	public static var DEFAULT_CHARACTER:String = 'bf';
 	public static var DEFAULT_SCALE:Float = 0.7;
-
 	public var jsonFile:DialogueCharacterFile = null;
 	#if (haxe >= "4.0.0")
 	public var dialogueAnimations:Map<String, DialogueAnimArray> = new Map();
@@ -72,7 +71,6 @@ class DialogueCharacter extends FlxSprite
 	public function new(x:Float = 0, y:Float = 0, character:String = null)
 	{
 		super(x, y);
-
 		if(character == null) character = DEFAULT_CHARACTER;
 		this.curCharacter = character;
 
@@ -161,13 +159,15 @@ class DialogueBoxPsych extends FlxSpriteGroup
 {
 	var dialogue:Alphabet;
 	var dialogueList:DialogueFile = null;
-
+	public var boxSize:Int = 1;
+	public var song:String = "";
 	public var finishThing:Void->Void;
 	public var nextDialogueThing:Void->Void = null;
 	public var skipDialogueThing:Void->Void = null;
 	var bgFade:FlxSprite = null;
 	var box:FlxSprite;
 	var textToType:String = '';
+	var talkingLine:String = "";
 
 	var arrayCharacters:Array<DialogueCharacter> = [];
 
@@ -177,14 +177,11 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	var textBoxTypes:Array<String> = ['normal', 'angry','nonskippable'];
 	//var charPositionList:Array<String> = ['left', 'center', 'right'];
 
-	public function new(dialogueList:DialogueFile, ?song:String = null)
+	public function new(dialogueList:DialogueFile, ?song:String = null,boxSize:Int = 1)
 	{
 		super();
+		this.boxSize = boxSize;
 
-		if(song != null && song != '') {
-			FlxG.sound.playMusic(Paths.music(song), 0);
-			FlxG.sound.music.fadeIn(2, 0, 1);
-		}
 		
 		bgFade = new FlxSprite(-500, -500).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.WHITE);
 		bgFade.scrollFactor.set();
@@ -192,8 +189,14 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		bgFade.alpha = 0;
 		add(bgFade);
 
+
+
+		this.song = song;
 		this.dialogueList = dialogueList;
-		spawnCharacters();
+
+
+
+		spawnCharacters(boxSize);
 
 		box = new FlxSprite(70, 370);
 		box.frames = Paths.getSparrowAtlas('speech_bubble');
@@ -217,11 +220,11 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		box.animation.addByPrefix('center-angryOpen', 'speech bubble Middle loud open', 24, false);
 		box.animation.play('normal', true);
 		box.visible = false;
-		box.setGraphicSize(Std.int(box.width * 0.9));
+		box.setGraphicSize(Std.int(box.width * (boxSize - .1)));
 		box.updateHitbox();
 		add(box);
 
-		startNextDialog();
+		startNextDialog(boxSize);
 	}
 
 	var dialogueStarted:Bool = false;
@@ -232,12 +235,14 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	public static var RIGHT_CHAR_X:Float = -100;
 	public static var DEFAULT_CHAR_Y:Float = 60;
 
-	function spawnCharacters() {
+	function spawnCharacters(boxSize) {
 		#if (haxe >= "4.0.0")
-		var charsMap:Map<String, Bool> = new Map();
+			var charsMap:Map<String, Bool> = new Map();
 		#else
 		var charsMap:Map<String, Bool> = new Map<String, Bool>();
 		#end
+
+
 		for (i in 0...dialogueList.dialogue.length) {
 			if(dialogueList.dialogue[i] != null) {
 				var charToAdd:String = dialogueList.dialogue[i].portrait;
@@ -252,7 +257,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			var y:Float = DEFAULT_CHAR_Y;
 			var char:DialogueCharacter = new DialogueCharacter(x + offsetPos, y, individualChar);
 
-			char.setGraphicSize(Std.int(char.width * DialogueCharacter.DEFAULT_SCALE * char.jsonFile.scale));
+			char.setGraphicSize(Std.int(char.width * DialogueCharacter.DEFAULT_SCALE * char.jsonFile.scale * boxSize));
 			char.updateHitbox();
 			char.antialiasing = ClientPrefs.globalAntialiasing;
 			char.scrollFactor.set();
@@ -294,7 +299,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		}
 
 		if(!dialogueEnded) {
-			bgFade.alpha += 0.1 * elapsed;
+			bgFade.alpha += 0.001 * elapsed;
 			if(bgFade.alpha > 0.1) bgFade.alpha = 0;
 
 			if(PlayerSettings.player1.controls.ACCEPT && currentType != "non") {
@@ -306,7 +311,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 						daText.destroy();
 					}
 					
-					daText = new Alphabet(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, textToType, false, true, 0.0, 0.7);
+					daText = new Alphabet(DEFAULT_TEXT_X * boxSize, DEFAULT_TEXT_Y * boxSize, textToType, false, true, 0.0, 0.6* boxSize ,"dialogue","White",.6,talkingLine);
 					add(daText);
 					
 					if(skipDialogueThing != null) {
@@ -331,9 +336,11 @@ class DialogueBoxPsych extends FlxSpriteGroup
 					daText.destroy();
 					daText = null;
 					updateBoxOffsets(box);
-					FlxG.sound.music.fadeOut(1, 0);
+					if (song != "") {
+						FlxG.sound.music.fadeOut(1, 0);
+					}
 				} else {
-					startNextDialog();
+					startNextDialog(boxSize);
 				}
 				FlxG.sound.play(Paths.sound('dialogueClose'));
 			} else if(daText.finishedText) {
@@ -440,6 +447,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 						leChar.destroy();
 					}
 				}
+
 				finishThing();
 				kill();
 			}
@@ -449,7 +457,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 
 	var lastCharacter:Int = -1;
 	var lastBoxType:String = '';
-	function startNextDialog():Void
+	function startNextDialog(boxSize):Void
 	
 	{
 		var curDialogue:DialogueLine = null;
@@ -463,7 +471,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		
 		if (curDialogue.boxState == "nonskippable")
 		{
-			box.alpha = .5;
+			box.alpha = 1;
 			currentType = "non";
 		}
 		else
@@ -511,7 +519,9 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		}
 
 		textToType = curDialogue.text;
-		daText = new Alphabet(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, textToType, false, true, curDialogue.speed, 0.7,curDialogue.portrait);
+		if(curDialogue.talkingLine == null || curDialogue.talkingLine.length < 1) curDialogue.talkingLine = ' ';
+		talkingLine = curDialogue.talkingLine;
+		daText = new Alphabet(DEFAULT_TEXT_X * boxSize, DEFAULT_TEXT_Y *  boxSize, textToType, false, true, curDialogue.speed, 0.6 * boxSize ,curDialogue.portrait,"White",.6,talkingLine);
 		add(daText);
 
 		var char:DialogueCharacter = arrayCharacters[character];
@@ -552,7 +562,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 					}
 					else
 					{
-						startNextDialog();
+						startNextDialog(boxSize);
 					}
 				}
 			});
@@ -577,13 +587,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	public static function updateBoxOffsets(box:FlxSprite) { //Had to make it static because of the editors
 		box.centerOffsets();
 		box.updateHitbox();
-		if(box.animation.curAnim.name.startsWith('angry')) {
-			box.offset.set(50, 65);
-		} else if(box.animation.curAnim.name.startsWith('center-angry')) {
-			box.offset.set(50, 30);
-		} else {
-			box.offset.set(10, 0);
-		}
+		box.offset.set(10, 0);
 		
 		if(!box.flipX) box.offset.y += 10;
 	}

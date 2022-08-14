@@ -6,6 +6,7 @@ import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.group.FlxSpriteGroup;
 import flixel.math.FlxMath;
 import flixel.util.FlxTimer;
+import flixel.util.FlxColor;
 import flixel.system.FlxSound;
 
 using StringTools;
@@ -46,16 +47,22 @@ class Alphabet extends FlxSpriteGroup
 	public var typed:Bool = false;
 	public var characterTalk:String = "";
 	public var typingSpeed:Float = 0.05;
-	public function new(x:Float, y:Float, text:String = "", ?bold:Bool = false, typed:Bool = false, ?typingSpeed:Float = 0.05, ?textSize:Float = 1, ?characterTalking:String = "dialogue")
+	public var colorValue:String = "White";
+	public var textSep:Float = 1.3;
+	public var talkLine:String = "";
+	public function new(x:Float, y:Float, text:String = "", ?bold:Bool = false, typed:Bool = false, ?typingSpeed:Float = 0.05, ?textSize:Float = 1, ?characterTalking:String = "dialogue", colorValue:String = "Orange",textSep:Float = 1.3,talkingLine:String = "")
 	{
+		talkLine = talkingLine;
+		textSize /= 1.3;
 		characterTalk = characterTalking;
 		super(x, y);
 		forceX = Math.NEGATIVE_INFINITY;
 		this.textSize = textSize;
-
+		this.colorValue = colorValue;
 		_finalText = text;
 		this.text = text;
 		this.typed = typed;
+		this.textSep = textSep;
 		isBold = bold;
 
 		if (text != "")
@@ -83,6 +90,7 @@ class Alphabet extends FlxSpriteGroup
 		lettersArray = [];
 		splitWords = [];
 		loopNum = 0;
+		letterNum = 0;
 		xPos = 0;
 		curRow = 0;
 		consecutiveSpaces = 0;
@@ -136,7 +144,7 @@ class Alphabet extends FlxSpriteGroup
 			{
 				if (lastSprite != null)
 				{
-					xPos = lastSprite.x + lastSprite.width;
+					xPos = lastSprite.x + (lastSprite.width * textSep);
 				}
 
 				if (consecutiveSpaces > 0)
@@ -147,6 +155,15 @@ class Alphabet extends FlxSpriteGroup
 
 				// var letter:AlphaCharacter = new AlphaCharacter(30 * loopNum, 0, textSize);
 				var letter:AlphaCharacter = new AlphaCharacter(xPos, 0, textSize);
+				switch (colorValue)
+				{
+					case "Gaster":
+						letter.color = FlxColor.fromRGB(229,229,255);
+					case "Orange":
+						letter.color = FlxColor.fromRGB(255,120,0);
+					default:
+						letter.color = FlxColor.fromRGB(255,255,255);
+				}
 
 				if (isBold)
 				{
@@ -167,15 +184,15 @@ class Alphabet extends FlxSpriteGroup
 				{
 					if (isNumber)
 					{
-						letter.createNumber(character);
+						letter.createNumber(character,typed);
 					}
 					else if (isSymbol)
 					{
-						letter.createSymbol(character);
+						letter.createSymbol(character,typed);
 					}
 					else
 					{
-						letter.createLetter(character);
+						letter.createLetter(character,typed);
 					}
 				}
 
@@ -195,9 +212,11 @@ class Alphabet extends FlxSpriteGroup
 	}
 
 	var loopNum:Int = 0;
+	var letterNum:Int = 0;
 	var xPos:Float = 0;
 	public var curRow:Int = 0;
 	var dialogueSound:FlxSound = null;
+	var talkingSound:FlxSound = null;
 	var consecutiveSpaces:Int = 0;
 
 	var typeTimer:FlxTimer = null;
@@ -212,8 +231,21 @@ class Alphabet extends FlxSpriteGroup
 			while(!finishedText) { 
 				timerCheck();
 			}
-			if(dialogueSound != null) dialogueSound.stop();
+			
+			if (characterTalk == "derpToriel")
+			{
+				if (letterNum < 2)
+				{
+					letterNum++;
+					if(talkingSound != null) talkingSound.stop();
+					talkingSound = FlxG.sound.play(Paths.sound("torielDialogue/"+talkLine));
+				}
+			}
+			else
+			{
 				dialogueSound = FlxG.sound.play(Paths.sound(characterTalk + 'Talk'));
+			}
+			if(dialogueSound != null) dialogueSound.stop();
 		} else {
 			typeTimer = new FlxTimer().start(0.1, function(tmr:FlxTimer) {
 				typeTimer = new FlxTimer().start(speed, function(tmr:FlxTimer) {
@@ -259,9 +291,8 @@ class Alphabet extends FlxSpriteGroup
 				if (lastSprite != null && !xPosResetted)
 				{
 					lastSprite.updateHitbox();
-					xPos += lastSprite.width + 3;
-					// if (isBold)
-					// xPos -= 80;
+					xPos += (lastSprite.width + 15) * .7;
+
 				}
 				else
 				{
@@ -296,22 +327,35 @@ class Alphabet extends FlxSpriteGroup
 				{
 					if (isNumber)
 					{
-						letter.createNumber(splitWords[loopNum]);
+						letter.createNumber(splitWords[loopNum],typed);
 					}
 					else if (isSymbol)
 					{
-						letter.createSymbol(splitWords[loopNum]);
+						letter.createSymbol(splitWords[loopNum],typed);
 					}
 					else
 					{
-						letter.createLetter(splitWords[loopNum]);
+						letter.createLetter(splitWords[loopNum],typed);
 					}
 				}
 				letter.x += 90;
 
 				if(tmr != null) {
 					if(dialogueSound != null) dialogueSound.stop();
-					dialogueSound = FlxG.sound.play(Paths.sound(characterTalk + 'Talk'));
+					trace(characterTalk);
+					if (characterTalk == "derpToriel")
+					{
+						if (letterNum < 2)
+						{
+							letterNum++;
+							if(talkingSound != null) talkingSound.stop();
+							talkingSound = FlxG.sound.play(Paths.sound("torielDialogue/"+talkLine));
+						}
+					}
+					else
+					{
+						dialogueSound = FlxG.sound.play(Paths.sound(characterTalk + 'Talk'));
+					}
 				}
 
 				add(letter);
@@ -439,7 +483,7 @@ class AlphaCharacter extends FlxSprite
 		}
 	}
 
-	public function createLetter(letter:String):Void
+	public function createLetter(letter:String,typed:Bool):Void
 	{
 		var letterCase:String = "lowercase";
 		if (letter.toLowerCase() != letter)
@@ -451,22 +495,43 @@ class AlphaCharacter extends FlxSprite
 		animation.play(letter);
 		updateHitbox();
 
-		y = (110 - height);
+		if (typed){
+			y = (30 - height);
+		}
+		else {
+			y = (100 - height);
+		}
 		y += row * 60;
+		switch (letter)
+		{
+			case "g":
+				y += 10;
+			case 'p':
+				y += 10;
+			case 'q':
+				y += 10;
+			case 'y':
+				y += 10;
+		}
 	}
 
-	public function createNumber(letter:String):Void
+	public function createNumber(letter:String,typed:Bool):Void
 	{
 		animation.addByPrefix(letter, letter, 24);
 		animation.play(letter);
 
 		updateHitbox();
 
-		y = (110 - height);
+		if (typed){
+			y = (30 - height);
+		}
+		else {
+			y = (100 - height);
+		}
 		y += row * 60;
 	}
 
-	public function createSymbol(letter:String)
+	public function createSymbol(letter:String,typed:Bool)
 	{
 		switch (letter)
 		{
@@ -489,8 +554,12 @@ class AlphaCharacter extends FlxSprite
 		animation.play(letter);
 
 		updateHitbox();
-
-		y = (110 - height);
+		if (typed){
+			y = (30 - height);
+		}
+		else {
+			y = (100 - height);
+		}
 		y += row * 60;
 		switch (letter)
 		{

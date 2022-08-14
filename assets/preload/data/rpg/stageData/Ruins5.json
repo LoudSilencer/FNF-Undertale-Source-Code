@@ -1,0 +1,108 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "RuinsRoom5",
+			"previous":	"Ruins4",
+			"next": "Ruins6",
+			"mainX": 201,
+			"mainY": 3477,
+			"exitX": 3640,
+			"exitY": 3477,
+			"areaname": "The Ruins",
+			"sectionname": "ruins"
+		},
+		{
+			"type": "lockbox",
+			"name": "hitbox",
+			"height": 499,
+			"width": 1020,
+			"size": 1.1,
+			"x": 2911,
+			"y": 2333,
+			"alpha": 0
+		},
+		{
+			"type": "lock",
+			"name": "spiketrap",
+			"animdata": ["locked","unlocked"],
+			"size": 1.1,
+			"x": 2938,
+			"y": 2574,
+			"alpha": 0
+		},
+		{
+			"type": "button",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 2302,
+			"y": 455,
+			"alpha": 0.8
+		},
+		{
+			"type": "button",
+			"name": "button",
+			"animdata": ["normal","normalButton","press","buttonPress"],
+			"x": 1598,
+			"y": 455,
+			"alpha": 0.9
+		},
+		{
+			"type": "hitbox",
+			"height": 2844,
+			"width": 792,
+			"size": 1,
+			"x": 574,
+			"y": 3249,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 1500,
+			"width": 2543,
+			"size": 1,
+			"x": -12,
+			"y": -19,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 1483,
+			"width": 2537,
+			"size": 1,
+			"x": 2505,
+			"y": -12,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 1116,
+			"width": 408,
+			"size": 1,
+			"x": 1432,
+			"y": -54,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "2",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": -12,
+			"y": 3872,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "1",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 3426,
+			"y": 3872,
+			"alpha": 0
+		}
+		
+	]
+}

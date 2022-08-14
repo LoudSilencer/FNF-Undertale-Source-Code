@@ -1,0 +1,76 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "RuinsDummy",
+			"previous":	"TheVoid",
+			"next": "TheVoid",
+			"third": "Ruins3",
+			"exitX": 1452,
+			"exitY": 954,
+			"mainX": 1452,
+			"mainY": 3093,
+			"thirdX": 1303,
+			"thirdY": 2526,
+			"areaname": "The Ruins Entrance",
+			"sectionname": "ruins"
+		},
+		{
+			"type": "hitbox",
+			"height": 396,
+			"width": 2250,
+			"size": 1,
+			"x": 257,
+			"y": 781,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 396,
+			"width": 2250,
+			"size": 1,
+			"x": 2203,
+			"y": 787,
+			"alpha": 0
+		},
+		{
+			"type": "cutscene",
+			"name": "RPGDummy",
+			"size": 1,
+			"x": 1355,
+			"y": 1261,
+			"alpha": 1
+		},
+		{
+			"type": "interactNoaccept",
+			"name": "dummyStartDialogue",
+			"completion": "dummyStart",
+			"width": 96,
+			"height": 2760,
+			"size": 1,
+			"x": 0,
+			"y": 1466,
+			"alpha": 0.90
+		},
+		{
+			"type": "hitbox",
+			"height": 2304,
+			"width": 355,
+			"size": 1,
+			"x": 233,
+			"y": 787,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "3",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 1090,
+			"y": 2866,
+			"alpha": 0
+		}
+		
+	]
+}

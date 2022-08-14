@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lines.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lines0000" x="0" y="0" width="2560" height="1440" frameX="0" frameY="-100" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0001" x="0" y="0" width="2560" height="1440" frameX="-2" frameY="-98" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0002" x="0" y="0" width="2560" height="1440" frameX="-4" frameY="-95" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0003" x="0" y="0" width="2560" height="1440" frameX="-7" frameY="-93" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0004" x="0" y="0" width="2560" height="1440" frameX="-9" frameY="-90" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0005" x="0" y="0" width="2560" height="1440" frameX="-12" frameY="-88" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0006" x="0" y="0" width="2560" height="1440" frameX="-14" frameY="-85" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0007" x="0" y="0" width="2560" height="1440" frameX="-17" frameY="-83" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0008" x="0" y="0" width="2560" height="1440" frameX="-19" frameY="-80" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0009" x="0" y="0" width="2560" height="1440" frameX="-22" frameY="-77" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0010" x="0" y="0" width="2560" height="1440" frameX="-24" frameY="-75" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0011" x="0" y="0" width="2560" height="1440" frameX="-27" frameY="-72" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0012" x="0" y="0" width="2560" height="1440" frameX="-29" frameY="-70" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0013" x="0" y="0" width="2560" height="1440" frameX="-32" frameY="-67" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0014" x="0" y="0" width="2560" height="1440" frameX="-34" frameY="-65" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0015" x="0" y="0" width="2560" height="1440" frameX="-36" frameY="-62" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0016" x="0" y="0" width="2560" height="1440" frameX="-39" frameY="-59" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0017" x="0" y="0" width="2560" height="1440" frameX="-41" frameY="-57" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0018" x="0" y="0" width="2560" height="1440" frameX="-44" frameY="-54" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0019" x="0" y="0" width="2560" height="1440" frameX="-46" frameY="-52" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0020" x="0" y="0" width="2560" height="1440" frameX="-49" frameY="-49" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0021" x="0" y="0" width="2560" height="1440" frameX="-51" frameY="-47" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0022" x="0" y="0" width="2560" height="1440" frameX="-54" frameY="-44" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0023" x="0" y="0" width="2560" height="1440" frameX="-56" frameY="-42" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0024" x="0" y="0" width="2560" height="1440" frameX="-59" frameY="-39" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0025" x="0" y="0" width="2560" height="1440" frameX="-61" frameY="-36" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0026" x="0" y="0" width="2560" height="1440" frameX="-64" frameY="-34" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0027" x="0" y="0" width="2560" height="1440" frameX="-66" frameY="-31" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0028" x="0" y="0" width="2560" height="1440" frameX="-68" frameY="-29" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0029" x="0" y="0" width="2560" height="1440" frameX="-71" frameY="-26" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0030" x="0" y="0" width="2560" height="1440" frameX="-73" frameY="-24" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0031" x="0" y="0" width="2560" height="1440" frameX="-76" frameY="-21" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0032" x="0" y="0" width="2560" height="1440" frameX="-78" frameY="-18" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0033" x="0" y="0" width="2560" height="1440" frameX="-81" frameY="-16" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0034" x="0" y="0" width="2560" height="1440" frameX="-83" frameY="-13" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0035" x="0" y="0" width="2560" height="1440" frameX="-86" frameY="-11" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0036" x="0" y="0" width="2560" height="1440" frameX="-88" frameY="-8" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0037" x="0" y="0" width="2560" height="1440" frameX="-91" frameY="-6" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0038" x="0" y="0" width="2560" height="1440" frameX="-93" frameY="-3" frameWidth="2656" frameHeight="1540"/>
+	<SubTexture name="lines0039" x="0" y="0" width="2560" height="1440" frameX="-96" frameY="0" frameWidth="2656" frameHeight="1540"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="slashAttack.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Slash0000" x="10" y="10" width="261" height="822"/>
+	<SubTexture name="Slash0001" x="281" y="10" width="261" height="822"/>
+	<SubTexture name="Slash0002" x="552" y="10" width="261" height="822"/>
+	<SubTexture name="Slash0003" x="823" y="10" width="261" height="822"/>
+	<SubTexture name="Slash0004" x="1094" y="10" width="261" height="822"/>
+</TextureAtlas>

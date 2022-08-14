@@ -1,0 +1,2081 @@
+{
+	"song": {
+		"player1": "bf",
+		"player2": "froggit",
+		"notes": [
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						327.868852459016,
+						2,
+						0
+					],
+					[
+						819.672131147541,
+						2,
+						0
+					],
+					[
+						0,
+						-1,
+						"Change Soulstate",
+						"0",
+						""
+					],
+					[
+						327.868852459016,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						819.672131147541,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						1311.47540983607,
+						0,
+						0
+					],
+					[
+						1803.27868852459,
+						3,
+						0
+					],
+					[
+						2131.14754098361,
+						0,
+						0
+					],
+					[
+						1311.47540983607,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						1803.27868852459,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						2131.14754098361,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						2950.81967213115,
+						1,
+						0
+					],
+					[
+						3442.62295081967,
+						1,
+						0
+					],
+					[
+						2950.81967213115,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						3442.62295081967,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						3934.4262295082,
+						3,
+						0
+					],
+					[
+						4426.22950819672,
+						0,
+						0
+					],
+					[
+						4754.09836065574,
+						1,
+						0
+					],
+					[
+						4918.03278688525,
+						2,
+						0
+					],
+					[
+						3934.4262295082,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						4426.22950819672,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						4754.09836065574,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						4918.03278688525,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						5573.77049180328,
+						2,
+						0
+					],
+					[
+						6065.5737704918,
+						2,
+						0
+					],
+					[
+						5245.90163934426,
+						-1,
+						"Change Soulstate",
+						"1",
+						""
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						6557.37704918033,
+						0,
+						0
+					],
+					[
+						7049.18032786885,
+						3,
+						0
+					],
+					[
+						7377.04918032787,
+						0,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						8196.72131147541,
+						1,
+						0
+					],
+					[
+						8688.52459016393,
+						1,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						9180.32786885246,
+						3,
+						0
+					],
+					[
+						9672.13114754098,
+						0,
+						0
+					],
+					[
+						10000,
+						1,
+						0
+					],
+					[
+						10163.9344262295,
+						2,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						10819.6721311475,
+						2,
+						0
+					],
+					[
+						11311.4754098361,
+						2,
+						0
+					],
+					[
+						10491.8032786885,
+						-1,
+						"Change Soulstate",
+						"0",
+						""
+					],
+					[
+						10819.6721311475,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						11311.4754098361,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						11803.2786885246,
+						0,
+						0
+					],
+					[
+						12295.0819672131,
+						3,
+						0
+					],
+					[
+						12622.9508196721,
+						0,
+						0
+					],
+					[
+						11803.2786885246,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						12295.0819672131,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						12622.9508196721,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						13442.6229508197,
+						1,
+						0
+					],
+					[
+						13934.4262295082,
+						1,
+						0
+					],
+					[
+						13442.6229508197,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						13934.4262295082,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						14426.2295081967,
+						3,
+						0
+					],
+					[
+						14918.0327868852,
+						0,
+						0
+					],
+					[
+						14590.1639344262,
+						0,
+						0
+					],
+					[
+						14754.0983606557,
+						2,
+						0
+					],
+					[
+						15081.9672131148,
+						1,
+						0
+					],
+					[
+						15245.9016393443,
+						3,
+						0
+					],
+					[
+						15409.8360655738,
+						2,
+						0
+					],
+					[
+						14426.2295081967,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						14590.1639344262,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						14754.0983606557,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						14918.0327868852,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						15081.9672131148,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						15245.9016393443,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						15409.8360655738,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						16065.5737704918,
+						2,
+						0
+					],
+					[
+						16557.3770491803,
+						2,
+						0
+					],
+					[
+						15737.7049180328,
+						-1,
+						"Change Soulstate",
+						"1",
+						""
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						17049.1803278688,
+						0,
+						0
+					],
+					[
+						17540.9836065574,
+						3,
+						0
+					],
+					[
+						17868.8524590164,
+						0,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						18688.5245901639,
+						1,
+						0
+					],
+					[
+						19180.3278688525,
+						1,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						19672.131147541,
+						3,
+						0
+					],
+					[
+						20163.9344262295,
+						0,
+						0
+					],
+					[
+						19836.0655737705,
+						0,
+						0
+					],
+					[
+						20000,
+						2,
+						0
+					],
+					[
+						20327.868852459,
+						1,
+						0
+					],
+					[
+						20491.8032786885,
+						3,
+						0
+					],
+					[
+						20655.737704918,
+						2,
+						0
+					],
+					[
+						20819.6721311475,
+						0,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						21311.4754098361,
+						3,
+						0
+					],
+					[
+						21270.4918032787,
+						0,
+						0
+					],
+					[
+						21803.2786885246,
+						1,
+						0
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						22295.0819672131,
+						1,
+						0
+					],
+					[
+						22622.9508196721,
+						2,
+						0
+					],
+					[
+						22786.8852459016,
+						3,
+						0
+					],
+					[
+						23114.7540983607,
+						0,
+						0
+					],
+					[
+						23278.6885245902,
+						1,
+						0
+					],
+					[
+						23442.6229508197,
+						3,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						23852.4590163934,
+						3,
+						0
+					],
+					[
+						23893.4426229508,
+						2,
+						0
+					],
+					[
+						23934.4262295082,
+						0,
+						0
+					],
+					[
+						24426.2295081967,
+						1,
+						0
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						24918.0327868852,
+						3,
+						0
+					],
+					[
+						25245.9016393443,
+						2,
+						0
+					],
+					[
+						25409.8360655738,
+						0,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						26557.3770491803,
+						3,
+						0
+					],
+					[
+						26516.3934426229,
+						0,
+						0
+					],
+					[
+						26721.3114754098,
+						1,
+						0
+					],
+					[
+						26885.2459016393,
+						0,
+						0
+					],
+					[
+						27049.1803278688,
+						2,
+						0
+					],
+					[
+						27213.1147540984,
+						3,
+						0
+					],
+					[
+						27377.0491803279,
+						2,
+						0
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						27540.9836065574,
+						1,
+						0
+					],
+					[
+						27868.8524590164,
+						2,
+						0
+					],
+					[
+						28032.7868852459,
+						3,
+						0
+					],
+					[
+						28360.6557377049,
+						0,
+						0
+					],
+					[
+						28524.5901639344,
+						1,
+						0
+					],
+					[
+						28688.5245901639,
+						3,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						28852.4590163934,
+						0,
+						0
+					],
+					[
+						29016.3934426229,
+						1,
+						0
+					],
+					[
+						29180.3278688525,
+						3,
+						0
+					],
+					[
+						29508.1967213115,
+						3,
+						0
+					],
+					[
+						29672.131147541,
+						2,
+						0
+					],
+					[
+						29836.0655737705,
+						0,
+						0
+					],
+					[
+						28852.4590163934,
+						7,
+						0
+					],
+					[
+						29016.3934426229,
+						6,
+						0
+					],
+					[
+						29180.3278688525,
+						4,
+						0
+					],
+					[
+						29508.1967213115,
+						4,
+						0
+					],
+					[
+						29672.131147541,
+						5,
+						0
+					],
+					[
+						29836.0655737705,
+						7,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						30163.9344262295,
+						4,
+						0
+					],
+					[
+						30491.8032786885,
+						5,
+						0
+					],
+					[
+						30819.6721311475,
+						7,
+						0
+					],
+					[
+						31147.5409836066,
+						6,
+						0
+					],
+					[
+						31311.4754098361,
+						4,
+						0
+					],
+					[
+						30163.9344262295,
+						3,
+						0
+					],
+					[
+						30491.8032786885,
+						2,
+						0
+					],
+					[
+						30819.6721311475,
+						0,
+						0
+					],
+					[
+						31147.5409836066,
+						1,
+						0
+					],
+					[
+						31311.4754098361,
+						3,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						31803.2786885246,
+						3,
+						0
+					],
+					[
+						31762.2950819672,
+						0,
+						0
+					],
+					[
+						32295.0819672131,
+						1,
+						0
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						32786.8852459016,
+						1,
+						0
+					],
+					[
+						33114.7540983607,
+						2,
+						0
+					],
+					[
+						33278.6885245902,
+						3,
+						0
+					],
+					[
+						33606.5573770492,
+						0,
+						0
+					],
+					[
+						33770.4918032787,
+						1,
+						0
+					],
+					[
+						33934.4262295082,
+						3,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						34344.262295082,
+						3,
+						0
+					],
+					[
+						34385.2459016393,
+						2,
+						0
+					],
+					[
+						34426.2295081967,
+						0,
+						0
+					],
+					[
+						34918.0327868852,
+						1,
+						0
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						35409.8360655738,
+						3,
+						0
+					],
+					[
+						35737.7049180328,
+						2,
+						0
+					],
+					[
+						35901.6393442623,
+						0,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						37049.1803278689,
+						3,
+						0
+					],
+					[
+						37008.1967213115,
+						0,
+						0
+					],
+					[
+						37213.1147540984,
+						1,
+						0
+					],
+					[
+						37377.0491803279,
+						0,
+						0
+					],
+					[
+						37540.9836065574,
+						2,
+						0
+					],
+					[
+						37704.9180327869,
+						3,
+						0
+					],
+					[
+						37868.8524590164,
+						2,
+						0
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						38032.7868852459,
+						1,
+						0
+					],
+					[
+						38360.6557377049,
+						2,
+						0
+					],
+					[
+						38524.5901639344,
+						3,
+						0
+					],
+					[
+						38852.4590163934,
+						0,
+						0
+					],
+					[
+						39016.393442623,
+						1,
+						0
+					],
+					[
+						39180.3278688525,
+						3,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						39344.262295082,
+						0,
+						0
+					],
+					[
+						39508.1967213115,
+						1,
+						0
+					],
+					[
+						39672.131147541,
+						3,
+						0
+					],
+					[
+						40000,
+						3,
+						0
+					],
+					[
+						40163.9344262295,
+						2,
+						0
+					],
+					[
+						40327.868852459,
+						0,
+						0
+					],
+					[
+						39344.262295082,
+						7,
+						0
+					],
+					[
+						39508.1967213115,
+						6,
+						0
+					],
+					[
+						39672.131147541,
+						4,
+						0
+					],
+					[
+						40000,
+						4,
+						0
+					],
+					[
+						40163.9344262295,
+						5,
+						0
+					],
+					[
+						40327.868852459,
+						7,
+						0
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						40655.737704918,
+						4,
+						0
+					],
+					[
+						40983.606557377,
+						5,
+						0
+					],
+					[
+						41311.4754098361,
+						7,
+						0
+					],
+					[
+						41639.3442622951,
+						6,
+						0
+					],
+					[
+						41803.2786885246,
+						4,
+						0
+					],
+					[
+						40655.737704918,
+						3,
+						0
+					],
+					[
+						40983.606557377,
+						2,
+						0
+					],
+					[
+						41311.4754098361,
+						0,
+						0
+					],
+					[
+						41639.3442622951,
+						1,
+						0
+					],
+					[
+						41803.2786885246,
+						3,
+						0
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						41967.2131147541,
+						0,
+						0
+					],
+					[
+						42295.0819672131,
+						3,
+						0
+					],
+					[
+						42622.9508196721,
+						1,
+						0
+					],
+					[
+						42950.8196721311,
+						0,
+						0
+					],
+					[
+						41967.2131147541,
+						-1,
+						"Change Soulstate",
+						"0",
+						""
+					],
+					[
+						41970.6284153005,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					],
+					[
+						42295.0819672131,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					],
+					[
+						42622.9508196721,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					],
+					[
+						42950.8196721311,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						43278.6885245902,
+						2,
+						0
+					],
+					[
+						43934.4262295082,
+						3,
+						0
+					],
+					[
+						43278.6885245902,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					],
+					[
+						43934.4262295082,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						44590.1639344262,
+						0,
+						0
+					],
+					[
+						44918.0327868852,
+						1,
+						0
+					],
+					[
+						45245.9016393443,
+						2,
+						0
+					],
+					[
+						45573.7704918033,
+						0,
+						0
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						45901.6393442623,
+						3,
+						0
+					],
+					[
+						46557.3770491803,
+						0,
+						0
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						47213.1147540983,
+						0,
+						0
+					],
+					[
+						47540.9836065574,
+						3,
+						0
+					],
+					[
+						47868.8524590164,
+						2,
+						0
+					],
+					[
+						48196.7213114754,
+						3,
+						0
+					],
+					[
+						47213.1147540983,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					],
+					[
+						47540.9836065574,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					],
+					[
+						47868.8524590164,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					],
+					[
+						48196.7213114754,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						48524.5901639344,
+						0,
+						0
+					],
+					[
+						48852.4590163934,
+						1,
+						0
+					],
+					[
+						49180.3278688524,
+						3,
+						0
+					],
+					[
+						49508.1967213115,
+						2,
+						0
+					],
+					[
+						48524.5901639344,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					],
+					[
+						48852.4590163934,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					],
+					[
+						49180.3278688524,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					],
+					[
+						49508.1967213115,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Spiral"
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						49836.0655737705,
+						0,
+						0
+					],
+					[
+						50163.9344262295,
+						3,
+						0
+					],
+					[
+						50491.8032786885,
+						2,
+						0
+					],
+					[
+						50819.6721311475,
+						1,
+						0
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						51147.5409836065,
+						0,
+						0
+					],
+					[
+						51475.4098360656,
+						3,
+						0
+					],
+					[
+						51803.2786885246,
+						2,
+						0
+					],
+					[
+						52131.1475409836,
+						0,
+						0
+					],
+					[
+						51803.2786885246,
+						-1,
+						"Change Soulstate",
+						"1",
+						""
+					]
+				],
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						52459.0163934426,
+						0,
+						0
+					],
+					[
+						52786.8852459016,
+						3,
+						0
+					],
+					[
+						53114.7540983606,
+						1,
+						0
+					],
+					[
+						53442.6229508197,
+						0,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						53770.4918032787,
+						2,
+						0
+					],
+					[
+						54426.2295081967,
+						3,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						55081.9672131147,
+						0,
+						0
+					],
+					[
+						55409.8360655738,
+						1,
+						0
+					],
+					[
+						55737.7049180328,
+						2,
+						0
+					],
+					[
+						56065.5737704918,
+						0,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"sectionNotes": [
+					[
+						56393.4426229508,
+						3,
+						0
+					],
+					[
+						57049.1803278688,
+						0,
+						0
+					]
+				],
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [
+					[
+						57704.9180327869,
+						0,
+						0
+					],
+					[
+						58032.7868852459,
+						3,
+						0
+					],
+					[
+						58360.6557377049,
+						2,
+						0
+					],
+					[
+						58688.5245901639,
+						3,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 170
+			},
+			{
+				"sectionNotes": [
+					[
+						59016.3934426229,
+						0,
+						0
+					],
+					[
+						59344.2622950819,
+						1,
+						0
+					],
+					[
+						59672.131147541,
+						3,
+						0
+					],
+					[
+						60000,
+						2,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 170
+			},
+			{
+				"sectionNotes": [
+					[
+						60327.868852459,
+						0,
+						0
+					],
+					[
+						60655.737704918,
+						3,
+						0
+					],
+					[
+						60983.606557377,
+						2,
+						0
+					],
+					[
+						61311.475409836,
+						1,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 170
+			},
+			{
+				"sectionNotes": [
+					[
+						61639.3442622951,
+						0,
+						0
+					],
+					[
+						61967.2131147541,
+						1,
+						0
+					],
+					[
+						62295.0819672131,
+						3,
+						0
+					],
+					[
+						62622.9508196721,
+						0,
+						0
+					],
+					[
+						62786.8852459016,
+						3,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 170
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						63278.6885245902,
+						2,
+						0
+					],
+					[
+						63770.4918032787,
+						2,
+						0
+					],
+					[
+						63278.6885245902,
+						2,
+						0
+					],
+					[
+						63770.4918032787,
+						2,
+						0
+					],
+					[
+						62950.8196721311,
+						-1,
+						"Change Soulstate",
+						"0",
+						""
+					],
+					[
+						63278.6885245902,
+						2,
+						0
+					],
+					[
+						63770.4918032787,
+						2,
+						0
+					],
+					[
+						62950.8196721311,
+						-1,
+						"Change Soulstate",
+						"0",
+						""
+					],
+					[
+						62950.8196721311,
+						4,
+						573.770491803278
+					],
+					[
+						63278.6885245901,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						63770.4918032787,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					]
+				],
+				"altAnim": false,
+				"bpm": 170,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						64262.2950819672,
+						0,
+						0
+					],
+					[
+						64754.0983606557,
+						3,
+						0
+					],
+					[
+						65081.9672131147,
+						0,
+						0
+					],
+					[
+						64262.2950819672,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						64754.0983606557,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						65081.9672131147,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					]
+				],
+				"altAnim": false,
+				"bpm": 170,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						65901.6393442623,
+						1,
+						0
+					],
+					[
+						66393.4426229508,
+						1,
+						0
+					],
+					[
+						65901.6393442623,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						66393.4426229508,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					]
+				],
+				"altAnim": false,
+				"bpm": 170,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						66885.2459016393,
+						3,
+						0
+					],
+					[
+						67377.0491803279,
+						0,
+						0
+					],
+					[
+						67704.9180327869,
+						1,
+						0
+					],
+					[
+						67868.8524590164,
+						2,
+						0
+					],
+					[
+						66885.2459016393,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						67377.0491803279,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						67704.9180327869,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					],
+					[
+						67868.8524590164,
+						-1,
+						"Spawn Bullet",
+						"bug",
+						"Swirl"
+					]
+				],
+				"altAnim": false,
+				"bpm": 170,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						68524.5901639344,
+						2,
+						0
+					],
+					[
+						69016.3934426229,
+						2,
+						0
+					],
+					[
+						68196.7213114754,
+						-1,
+						"Change Soulstate",
+						"1",
+						""
+					]
+				],
+				"altAnim": false,
+				"bpm": 170,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						69508.1967213115,
+						0,
+						0
+					],
+					[
+						70000,
+						3,
+						0
+					],
+					[
+						70327.868852459,
+						0,
+						0
+					]
+				],
+				"altAnim": false,
+				"bpm": 170,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						71147.5409836066,
+						1,
+						0
+					],
+					[
+						71639.3442622951,
+						1,
+						0
+					]
+				],
+				"altAnim": false,
+				"bpm": 170,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						72131.1475409836,
+						3,
+						0
+					],
+					[
+						72950.8196721311,
+						1,
+						0
+					],
+					[
+						73114.7540983606,
+						2,
+						0
+					],
+					[
+						72295.0819672131,
+						0,
+						0
+					],
+					[
+						72459.0163934426,
+						3,
+						0
+					],
+					[
+						72622.9508196721,
+						2,
+						0
+					],
+					[
+						73278.6885245902,
+						1,
+						0
+					]
+				],
+				"altAnim": false,
+				"bpm": 170,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						73442.6229508197,
+						3,
+						614.754098360655
+					]
+				],
+				"altAnim": false,
+				"bpm": 170,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 170
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 183,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 183
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 183,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 183
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 183,
+				"changeBPM": false,
+				"mustHitSection": true
+			}
+		],
+		"player3": "gf",
+		"song": "Froggit",
+		"stage": "ruins",
+		"validScore": true,
+		"needsVoices": true,
+		"speed": 2.4,
+		"bpm": 183
+	}
+}

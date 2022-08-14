@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "This is the Rap Arena!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "OH GOD IT'S A TALKING FLOWER!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "evilflowey",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "OH MY GOD. SHUT UP. JUST SHUT UP."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "...What I meant to say was..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "You're familiar with how a rap battle works, yes?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "When it's your enemy's turn to sing, sometimes, your SOUL appears!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "When this happens, you won't have to sing, but rather, HIT the FRIENDLINESS PELLETS!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Go on, use the ARROW keys to hit the FRIENDLINESS PELLETS!"
+		}
+	]
+}

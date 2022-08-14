@@ -1,0 +1,25 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Despite what FLOWEY says..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You are content with your choices."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Your confidence fills you with DETERMINATION."
+		}
+	]
+}

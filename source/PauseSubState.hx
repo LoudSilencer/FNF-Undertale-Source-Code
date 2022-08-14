@@ -17,9 +17,9 @@ import flixel.FlxCamera;
 class PauseSubState extends MusicBeatSubstate
 {
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
-
+	var grpBorder:FlxTypedGroup<FlxSprite>;
 	var menuItems:Array<String> = [];
-	var menuItemsOG:Array<String> = ['Resume', 'Restart Song', 'Back to overworld','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','Interesting.','Your curiosity has led you here.','How far will you go','for the pursuit of knowledge?','Time will tell.'];
+	var menuItemsOG:Array<String> = ['RESUME', 'RESTART SONG', 'BACK TO OVERWORLD'];
 	var difficultyChoices = [];
 	var curSelected:Int = 0;
 
@@ -54,27 +54,27 @@ class PauseSubState extends MusicBeatSubstate
 		var levelInfo:FlxText = new FlxText(20, 15, 0, "", 32);
 		levelInfo.text += PlayState.SONG.song;
 		levelInfo.scrollFactor.set();
-		levelInfo.setFormat(Paths.font("vcr.ttf"), 32);
+		levelInfo.setFormat(Paths.font("undertale.ttf"), 32);
 		levelInfo.updateHitbox();
 		add(levelInfo);
 
 		var levelDifficulty:FlxText = new FlxText(20, 15 + 32, 0, "", 32);
 		levelDifficulty.text += CoolUtil.difficultyString();
 		levelDifficulty.scrollFactor.set();
-		levelDifficulty.setFormat(Paths.font('vcr.ttf'), 32);
+		levelDifficulty.setFormat(Paths.font('undertale.ttf'), 32);
 		levelDifficulty.updateHitbox();
 		add(levelDifficulty);
 
 		var blueballedTxt:FlxText = new FlxText(20, 15 + 64, 0, "", 32);
 		blueballedTxt.text = "Blueballed: " + PlayState.deathCounter;
 		blueballedTxt.scrollFactor.set();
-		blueballedTxt.setFormat(Paths.font('vcr.ttf'), 32);
+		blueballedTxt.setFormat(Paths.font('undertale.ttf'), 32);
 		blueballedTxt.updateHitbox();
 		add(blueballedTxt);
 
 		practiceText = new FlxText(20, 15 + 101, 0, "PRACTICE MODE", 32);
 		practiceText.scrollFactor.set();
-		practiceText.setFormat(Paths.font('vcr.ttf'), 32);
+		practiceText.setFormat(Paths.font('undertale.ttf'), 32);
 		practiceText.x = FlxG.width - (practiceText.width + 20);
 		practiceText.updateHitbox();
 		practiceText.visible = PlayState.practiceMode;
@@ -82,7 +82,7 @@ class PauseSubState extends MusicBeatSubstate
 
 		botplayText = new FlxText(20, FlxG.height - 40, 0, "BOTPLAY", 32);
 		botplayText.scrollFactor.set();
-		botplayText.setFormat(Paths.font('vcr.ttf'), 32);
+		botplayText.setFormat(Paths.font('undertale.ttf'), 32);
 		botplayText.x = FlxG.width - (botplayText.width + 20);
 		botplayText.updateHitbox();
 		botplayText.visible = PlayState.cpuControlled;
@@ -102,16 +102,23 @@ class PauseSubState extends MusicBeatSubstate
 		FlxTween.tween(blueballedTxt, {alpha: 1, y: blueballedTxt.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.7});
 
 		grpMenuShit = new FlxTypedGroup<Alphabet>();
-		add(grpMenuShit);
-
-		for (i in 0...menuItems.length)
+		grpBorder = new FlxTypedGroup<FlxSprite>();
+		
+	for (i in 0...menuItemsOG.length)
 		{
-			var songText:Alphabet = new Alphabet(0, (70 * i) + 30, menuItems[i], true, false);
-			songText.isMenuItem = true;
-			songText.targetY = i;
-			grpMenuShit.add(songText);
-		}
+			var border:FlxSprite = new FlxSprite().loadGraphic(Paths.image('resetBorder'));
+			border.screenCenter();
+			border.setGraphicSize(Std.int(border.width*1.4));
+			border.y += (180 * (i - (menuItemsOG.length / 2))) + 50;
+			grpBorder.add(border);
 
+			var optionText:Alphabet = new Alphabet(0, 0, menuItemsOG[i], true, false,0,.6);
+			optionText.screenCenter();
+			optionText.y += (180 * (i - (menuItemsOG.length / 2))) + 50;
+			grpMenuShit.add(optionText);
+		}
+		add(grpBorder);
+		add(grpMenuShit);
 		changeSelection();
 
 		cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
@@ -157,7 +164,7 @@ class PauseSubState extends MusicBeatSubstate
 
 			switch (daSelected)
 			{
-				case "Resume":
+				case "RESUME":
 					close();
 				case 'Change Difficulty':
 					menuItems = difficultyChoices;
@@ -166,7 +173,7 @@ class PauseSubState extends MusicBeatSubstate
 					PlayState.practiceMode = !PlayState.practiceMode;
 					PlayState.usedPractice = true;
 					practiceText.visible = PlayState.practiceMode;
-				case "Restart Song":
+				case "RESTART SONG":
 					CustomFadeTransition.nextCamera = transCamera;
 					MusicBeatState.resetState();
 					FlxG.sound.music.volume = 0;
@@ -174,16 +181,14 @@ class PauseSubState extends MusicBeatSubstate
 					PlayState.cpuControlled = !PlayState.cpuControlled;
 					PlayState.usedPractice = true;
 					botplayText.visible = PlayState.cpuControlled;
-				case "Back to overworld":
+				case "BACK TO OVERWORLD":
 					PlayState.deathCounter = 0;
 					PlayState.seenCutscene = false;
 					CustomFadeTransition.nextCamera = transCamera;
 					if(PlayState.isStoryMode) {
-						RPGState.area = "SaveM";
 						RPGState.triggerMusic = true;
 						MusicBeatState.switchState(new RPGState());
 					} else {
-						RPGState.area = "SaveM";
 						RPGState.triggerMusic = true;
 						MusicBeatState.switchState(new RPGState());
 					}
@@ -222,18 +227,14 @@ class PauseSubState extends MusicBeatSubstate
 		{
 			item.targetY = bullShit - curSelected;
 			bullShit++;
-
 			item.alpha = 0.6;
-			// item.setGraphicSize(Std.int(item.width * 0.8));
 
 			if (item.targetY == 0)
 			{
 				item.alpha = 1;
-				// item.setGraphicSize(Std.int(item.width));
 			}
 		}
 	}
-
 	function regenMenu():Void {
 		for (i in 0...grpMenuShit.members.length) {
 			this.grpMenuShit.remove(this.grpMenuShit.members[0], true);

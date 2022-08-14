@@ -1,0 +1,39 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You're still new here..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...so why don't you try talking to that DUMMY?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "The MONSTERS here aren't hostile."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "They're just misunderstood."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Try to SPARE this dummy."
+		}
+	]
+}

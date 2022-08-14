@@ -1,0 +1,96 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "TorielHouse2",
+			"previous": "Void",
+			"next": "Void",
+			"third": "TorielHouseMain",
+			"fourth": "Void",
+			"mainX": 2519,
+			"mainY": 1527,
+			"exitX": 2519,
+			"exitY": 1527,
+			"thirdX": 2519,
+			"thirdY": 1527,
+			"fourthX": 2519,
+			"fourthY": 1527,
+			"areaname": "Toriel's House",
+			"sectionname": "house"
+		},
+		{
+			"type": "hitbox",
+			"height": 3492,
+			"width": 684,
+			"size": 1,
+			"x": -636,
+			"y": -156,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 324,
+			"width": 2608,
+			"size": 1,
+			"x": -208,
+			"y": -124,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 276,
+			"width": 1372,
+			"size": 1,
+			"x": 2776,
+			"y": -56,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 404,
+			"width": 700,
+			"size": 1,
+			"x": 2772,
+			"y": 1888,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 4164,
+			"width": 480,
+			"size": 1,
+			"x": -80,
+			"y": 2016,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 1224,
+			"width": 592,
+			"size": 1,
+			"x": 397,
+			"y": 1189,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 436,
+			"width": 512,
+			"size": 1,
+			"x": 948,
+			"y": 420,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "3",
+			"height": 148,
+			"width": 560,
+			"size": 1,
+			"x": 2776,
+			"y": 1332,
+			"alpha": 0
+		}
+		
+	]
+}

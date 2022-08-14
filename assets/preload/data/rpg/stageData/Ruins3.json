@@ -1,0 +1,68 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "RuinsRoom2",
+			"previous":	"Ruins2",
+			"next": "Ruins4",
+			"third": "RuinsDummy",
+			"exitX": 4635,
+			"exitY": 2563,
+			"mainX": 239,
+			"mainY": 2563,
+			"thirdX": 2432,
+			"thirdY": 1188,
+			"areaname": "The Ruins",
+			"sectionname": "ruins"
+		},
+		{
+			"type": "hitbox",
+			"height": 3822,
+			"width": 952,
+			"size": 1,
+			"x": 584,
+			"y": 2143,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 4866,
+			"width": 912,
+			"size": 1,
+			"x": 3,
+			"y": -4,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "1",
+			"height": 673,
+			"width": 65,
+			"size": 1,
+			"x": 4383,
+			"y": 2936,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "2",
+			"height": 672,
+			"width": 65,
+			"size": 1,
+			"x": -32,
+			"y": 2942,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "3",
+			"height": 696,
+			"width": 160,
+			"size": 1,
+			"x": 2136,
+			"y": 794,
+			"alpha": 0
+		}
+		
+	]
+}

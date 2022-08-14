@@ -1,0 +1,47 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You think you're so smart, don't you?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Spare a few, fight a few..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You just can't make up your mind!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "This world is KILL OR BE KILLED."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Pretend the SPARE option isn't there."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I'll be seeing you soon!"
+		}
+
+	]
+}

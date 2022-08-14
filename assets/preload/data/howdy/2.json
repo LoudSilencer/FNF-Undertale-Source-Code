@@ -1,0 +1,11 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "nonskippable",
+			"expression": "talk",
+			"text": "Uh... I never told you my name..."
+		}
+	]
+}

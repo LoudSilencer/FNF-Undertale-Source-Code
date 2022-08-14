@@ -1,0 +1,36 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "derpToriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "MY CHILD.",
+			"talkingLine": "1"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "derpToriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "DID YOU SERIOUSLY. GENUINELY. JUST HIT THAT BULLET?",
+			"talkingLine": "2"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "derpToriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "YOU ARE BREAKING MY HEART, MY CHILD.",
+			"talkingLine": "3"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "derpToriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "SO I WILL BREAK. YOUR. HEART.",
+			"talkingLine": "4"
+		}
+	]
+}

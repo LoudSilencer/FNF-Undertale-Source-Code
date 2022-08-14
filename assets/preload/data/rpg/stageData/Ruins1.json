@@ -1,0 +1,56 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "RuinsEntrance",
+			"previous":	"None",
+			"next": "RuinsSphere",
+			"exitX": 3860,
+			"exitY": 1295,
+			"mainX": 1121,
+			"mainY": 1080,
+			"areaname": "The Beginning",
+			"sectionname": "none"
+		},
+		{
+			"type": "interact",
+			"name": "ruinsFlowersPit",
+			"completion": "none",
+			"height": 903,
+			"width": 503,
+			"size": 1,
+			"x": 621,
+			"y": 580,
+			"alpha": 0.9
+		},
+		{
+			"type": "hitbox",
+			"height": 3176,
+			"width": 1204,
+			"size": 1,
+			"x": 2243,
+			"y": 3,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 3176,
+			"width": 1204,
+			"size": 1,
+			"x": 2243,
+			"y": 1657.5,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "1",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 4655,
+			"y": 1097,
+			"alpha": 0
+		}
+		
+	]
+}

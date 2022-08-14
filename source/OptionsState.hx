@@ -30,10 +30,13 @@ using StringTools;
 // TO DO: Redo the menu creation system for not being as dumb
 class OptionsState extends MusicBeatState
 {
-	var options:Array<String> = ['Notes', 'Controls', 'Preferences'];
+	public var soulColors:Array<String> = ["RED","BLUE","CYAN","GREEN","PURPLE","ORANGE","YELLOW","GRAY"];
+	var options:Array<String> = ['Save','Freeplay', 'Controls', 'Preferences'];
 	private var grpOptions:FlxTypedGroup<Alphabet>;
+	private var grpBorder:FlxTypedGroup<FlxSprite>;
 	private static var curSelected:Int = 0;
 	public static var menuBG:FlxSprite;
+
 
 	override function create() {
 		#if desktop
@@ -42,22 +45,31 @@ class OptionsState extends MusicBeatState
 
 		menuBG = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		menuBG.color = 0xFFea71fd;
-		menuBG.setGraphicSize(Std.int(menuBG.width * 1.1));
+		menuBG.setGraphicSize(Std.int(menuBG.width * 1.2));
 		menuBG.updateHitbox();
 		menuBG.screenCenter();
 		menuBG.antialiasing = ClientPrefs.globalAntialiasing;
 		add(menuBG);
 
 		grpOptions = new FlxTypedGroup<Alphabet>();
-		add(grpOptions);
+		grpBorder = new FlxTypedGroup<FlxSprite>();
+
 
 		for (i in 0...options.length)
 		{
+			var border:FlxSprite = new FlxSprite().loadGraphic(Paths.image('resetBorder'));
+			border.screenCenter();
+			border.setGraphicSize(Std.int(border.width*1.4));
+			border.y += (180 * (i - (options.length / 2))) + 100;
+			grpBorder.add(border);
+
 			var optionText:Alphabet = new Alphabet(0, 0, options[i], true, false);
 			optionText.screenCenter();
-			optionText.y += (100 * (i - (options.length / 2))) + 50;
+			optionText.y += (180 * (i - (options.length / 2))) + 100;
 			grpOptions.add(optionText);
 		}
+		add(grpBorder);
+		add(grpOptions);
 		changeSelection();
 
 		super.create();
@@ -81,7 +93,6 @@ class OptionsState extends MusicBeatState
 
 		if (controls.BACK) {
 			FlxG.sound.play(Paths.sound('cancelMenu'));
-			RPGState.area = "SaveM";
 			MusicBeatState.switchState(new RPGState());
 		}
 
@@ -89,10 +100,16 @@ class OptionsState extends MusicBeatState
 			for (item in grpOptions.members) {
 				item.alpha = 0;
 			}
+			for (item in grpBorder.members) {
+				item.alpha = 0;
+			}
 
 			switch(options[curSelected]) {
-				case 'Notes':
-					openSubState(new NotesSubstate());
+				case 'Save':
+					MusicBeatState.switchState(new RPGSaveInGame());
+
+				case 'Freeplay':
+					MusicBeatState.switchState(new FreeplayState());
 
 				case 'Controls':
 					openSubState(new ControlsSubstate());
@@ -111,7 +128,9 @@ class OptionsState extends MusicBeatState
 			curSelected = 0;
 
 		var bullShit:Int = 0;
-
+		for (item in grpBorder.members) {
+			item.alpha = 1;
+		}
 		for (item in grpOptions.members) {
 			item.targetY = bullShit - curSelected;
 			bullShit++;
@@ -133,6 +152,7 @@ class NotesSubstate extends MusicBeatSubstate
 	private var grpNumbers:FlxTypedGroup<Alphabet>;
 	private var grpNotes:FlxTypedGroup<FlxSprite>;
 	private var shaderArray:Array<ColorSwap> = [];
+	public var soulColors:Array<String> = ["RED","BLUE","CYAN","GREEN","PURPLE","ORANGE","YELLOW","GRAY"];
 	var curValue:Float = 0;
 	var holdTime:Float = 0;
 	var hsvText:Alphabet;
@@ -447,7 +467,7 @@ class ControlsSubstate extends MusicBeatSubstate {
 			if(isCentered) {
 				optionText.screenCenter(X);
 				optionText.forceX = optionText.x;
-				optionText.yAdd = -55;
+				optionText.yAdd = -80;
 			} else {
 				optionText.forceX = 200;
 			}
@@ -703,6 +723,7 @@ class ControlsSubstate extends MusicBeatSubstate {
 
 class PreferencesSubstate extends MusicBeatSubstate
 {
+	public var soulColors:Array<String> = ["RED","BLUE","CYAN","GREEN","PURPLE","ORANGE","YELLOW","GRAY"];
 	private static var curSelected:Int = 0;
 	static var unselectableOptions:Array<String> = [
 		'GRAPHICS',
@@ -710,11 +731,16 @@ class PreferencesSubstate extends MusicBeatSubstate
 	];
 	static var noCheckbox:Array<String> = [
 		'Framerate',
+		'SOUL Color',
+		'Soul Speed',
 		'Note Delay'
 	];
 
 	static var options:Array<String> = [
 		'GRAPHICS',
+		'SOUL Color',
+		'Soul Speed',
+		'Colorblind Mode',
 		'Harder Difficulty',
 		'Low Quality',
 		'Anti-Aliasing',
@@ -730,7 +756,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 		'Note Splashes',
 		'Hide HUD',
 		'Hide Song Length',
-		'Flashing Lights',
+		'Lights and Motion',
 		'Camera Zooms'
 		#if !mobile
 		,'FPS Counter'
@@ -766,7 +792,9 @@ class PreferencesSubstate extends MusicBeatSubstate
 		for (i in 0...options.length)
 		{
 			var isCentered:Bool = unselectableCheck(i);
-			var optionText:Alphabet = new Alphabet(0, 70 * i, options[i], false, false);
+			var optionText:Alphabet = new Alphabet(0, (70 * i), options[i], false, false);
+			
+
 			optionText.isMenuItem = true;
 			if(isCentered) {
 				optionText.screenCenter(X);
@@ -789,13 +817,13 @@ class PreferencesSubstate extends MusicBeatSubstate
 				}
 
 				if(useCheckbox) {
-					var checkbox:CheckboxThingie = new CheckboxThingie(optionText.x - 105, optionText.y, false);
+					var checkbox:CheckboxThingie = new CheckboxThingie(optionText.x - 105, optionText.y - 80, false);
 					checkbox.sprTracker = optionText;
 					checkboxArray.push(checkbox);
 					checkboxNumber.push(i);
 					add(checkbox);
 				} else {
-					var valueText:AttachedText = new AttachedText('0', optionText.width + 80);
+					var valueText:AttachedText = new AttachedText('0', optionText.width);
 					valueText.sprTracker = optionText;
 					grpTexts.add(valueText);
 					textNumber.push(i);
@@ -804,7 +832,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 		}
 
 		descText = new FlxText(50, 600, 1180, "", 32);
-		descText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		descText.setFormat(Paths.font("undertale.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		descText.scrollFactor.set();
 		descText.borderSize = 2.4;
 		add(descText);
@@ -870,6 +898,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 							Main.fpsVar.visible = ClientPrefs.showFPS;
 					case 'Harder Difficulty':
 						ClientPrefs.moreSoul = !ClientPrefs.moreSoul;
+					case 'Colorblind Mode':
+						ClientPrefs.colorBlind = !ClientPrefs.colorBlind;
 					case 'Low Quality':
 						ClientPrefs.lowQuality = !ClientPrefs.lowQuality;
 
@@ -890,7 +920,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 					case 'Note Splashes':
 						ClientPrefs.noteSplashes = !ClientPrefs.noteSplashes;
 
-					case 'Flashing Lights':
+					case 'Lights and Motion':
 						ClientPrefs.flashing = !ClientPrefs.flashing;
 
 					case 'Violence':
@@ -929,6 +959,12 @@ class PreferencesSubstate extends MusicBeatSubstate
 				var add:Int = controls.UI_LEFT ? -1 : 1;
 				if(holdTime > 0.5 || controls.UI_LEFT_P || controls.UI_RIGHT_P)
 				switch(options[curSelected]) {
+					case 'Soul Speed':
+						ClientPrefs.soulSpeed += add/10;
+						ClientPrefs.soulSpeed = FlxMath.roundDecimal(ClientPrefs.soulSpeed,1);
+						if(ClientPrefs.soulSpeed < 5) ClientPrefs.soulSpeed = 5;
+						else if(ClientPrefs.soulSpeed > 10) ClientPrefs.soulSpeed = 10;
+
 					case 'Framerate':
 						ClientPrefs.framerate += add;
 						if(ClientPrefs.framerate < 60) ClientPrefs.framerate = 60;
@@ -941,6 +977,14 @@ class PreferencesSubstate extends MusicBeatSubstate
 							FlxG.drawFramerate = ClientPrefs.framerate;
 							FlxG.updateFramerate = ClientPrefs.framerate;
 						}
+					case 'SOUL Color':
+						ClientPrefs.soulColor += add;
+
+						if(ClientPrefs.soulColor < 0) ClientPrefs.soulColor = 7;
+						else if(ClientPrefs.soulColor > 7) ClientPrefs.soulColor = 0;
+
+
+
 					case 'Note Delay':
 						var mult:Int = 1;
 						if(holdTime > 1.5) { //Double speed after 1.5 seconds holding
@@ -983,6 +1027,10 @@ class PreferencesSubstate extends MusicBeatSubstate
 		switch(options[curSelected]) {
 			case 'Framerate':
 				daText = "Pretty self explanatory, isn't it?\nDefault value is 60.";
+			case 'SOUL Color':
+				daText = "Choose between RED, BLUE, CYAN, GREEN, PURPLE, ORANGE, YELLOW, and GRAY.";
+			case 'Soul Speed':
+				daText = "Changes your SOUL speed.";
 			case 'Note Delay':
 				daText = "Changes how late a note is spawned.\nUseful for preventing audio lag from wireless earphones.";
 			case 'FPS Counter':
@@ -990,7 +1038,9 @@ class PreferencesSubstate extends MusicBeatSubstate
 			case 'Low Quality':
 				daText = "If checked, disables some background details,\ndecreases loading times and improves performance.";
 			case 'Harder Difficulty':
-				daText = "If checked, adds more SOUL mechanics to songs.";
+				daText = "This setting will make your life a living hell. Reduces immunity frames, healing, and adds more mechanics later in the game.";
+			case 'Colorblind Mode':
+				daText = "Replaces the 'Blue' and 'Orange' SOUL mechanics with deeper, darker versions of their color.";
 			case 'Persistent Cached Data':
 				daText = "If checked, images loaded will stay in memory\nuntil the game is closed, this increases memory usage,\nbut basically makes reloading times instant.";
 			case 'Anti-Aliasing':
@@ -1007,8 +1057,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 				daText = "If unchecked, you won't get disgusted as frequently.";
 			case 'Note Splashes':
 				daText = "If unchecked, hitting \"Sick!\" notes won't show particles.";
-			case 'Flashing Lights':
-				daText = "Uncheck this if you're sensitive to flashing lights!";
+			case 'Lights and Motion':
+				daText = "Uncheck this if you're sensitive to flashing lights or motion Sickness!";
 			case 'Camera Zooms':
 				daText = "If unchecked, the camera won't zoom in on a beat hit.";
 			case 'Hide HUD':
@@ -1065,11 +1115,13 @@ class PreferencesSubstate extends MusicBeatSubstate
 						daValue = ClientPrefs.lowQuality;
 					case 'Harder Difficulty':
 						daValue = ClientPrefs.moreSoul;
+					case 'Colorblind Mode':
+						daValue = ClientPrefs.colorBlind;
 					case 'Anti-Aliasing':
 						daValue = ClientPrefs.globalAntialiasing;
 					case 'Note Splashes':
 						daValue = ClientPrefs.noteSplashes;
-					case 'Flashing Lights':
+					case 'Lights and Motion':
 						daValue = ClientPrefs.flashing;
 					case 'Downscroll':
 						daValue = ClientPrefs.downScroll;
@@ -1098,10 +1150,14 @@ class PreferencesSubstate extends MusicBeatSubstate
 			if(text != null) {
 				var daText:String = '';
 				switch(options[textNumber[i]]) {
+					case 'SOUL Color':
+						daText = ': ' + soulColors[ClientPrefs.soulColor];
 					case 'Framerate':
-						daText = '' + ClientPrefs.framerate;
+						daText = ': ' + ClientPrefs.framerate;
+					case 'Soul Speed':
+						daText = ': ' + ClientPrefs.soulSpeed;
 					case 'Note Delay':
-						daText = ClientPrefs.noteOffset + 'ms';
+						daText = ': ' + ClientPrefs.noteOffset + ' ms';
 				}
 				var lastTracker:FlxSprite = text.sprTracker;
 				text.sprTracker = null;

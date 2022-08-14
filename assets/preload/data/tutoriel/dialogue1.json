@@ -1,0 +1,28 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "What a terrible creature, torturing such a poor, innocent human."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "As caretaker, I will protect you."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Come! I will guide you through The Ruins."
+		}
+
+
+
+	]
+}

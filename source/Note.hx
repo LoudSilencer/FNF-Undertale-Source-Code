@@ -109,6 +109,19 @@ class Note extends FlxSprite
 						hitHealth = 0.5;
 					}
 					hitCausesMiss = false;
+				case 'Fight Note':
+					ignoreNote = mustPress;
+					reloadNote('FIGHT');
+					noteSplashTexture = 'noteSplashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+					if(isSustainNote) {
+						hitHealth = 0.1;
+					} else {
+						hitHealth = 0.5;
+					}
+					hitCausesMiss = false;
 				case 'Sans Note':
 					ignoreNote = mustPress;
 					reloadNote('SANS');

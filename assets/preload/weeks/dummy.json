@@ -1,0 +1,30 @@
+{
+	"songs": [
+		[
+			"Dummy",
+			"bar",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"dummy",
+		"bf",
+		"gf"
+	],
+	"storyName": "in this world it's rap or die",
+	"weekName": "dummy",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

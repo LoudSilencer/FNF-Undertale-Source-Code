@@ -1,0 +1,11 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "nonskippable",
+			"expression": "talk",
+			"text": "Go on, Boyfriend... hit ALL of them..."
+		}
+	]
+}

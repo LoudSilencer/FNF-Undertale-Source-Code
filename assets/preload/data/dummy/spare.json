@@ -1,0 +1,25 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...on second thought..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Maybe it is. just.. a normal dummy...?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Oh well."
+		}
+	]
+}

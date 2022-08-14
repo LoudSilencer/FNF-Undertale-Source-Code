@@ -1,0 +1,138 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "TorielHouseMain",
+			"previous": "Ruins10",
+			"next": "TorielUnderground",
+			"third": "TorielHouse2",
+			"fourth": "TorielHallway",
+			"mainX": 1385,
+			"mainY": 1679,
+			"exitX": 2225,
+			"exitY": 741,
+			"thirdX": 251,
+			"thirdY": 1494,
+			"fourthX": 2453,
+			"fourthY": 1500,
+			"areaname": "Toriel's House",
+			"sectionname": "house"
+		},
+		{
+			"type": "animated",
+			"name": "savestar",
+			"animdata": ["spin","SavePoint"],
+			"size": 0.5,
+			"x": 600,
+			"y": 500,
+			"alpha": 0
+		},
+		{
+			"type": "interact",
+			"name": "saveDialogueToriel",
+			"completion": "gotoOptions",
+			"height": 761,
+			"width": 683,
+			"size": 1,
+			"x": 1050,
+			"y": 1158,
+			"alpha": 0.90
+		},
+		{
+			"type": "hitbox",
+			"height": 1357,
+			"width": 828,
+			"size": 1,
+			"x": 623,
+			"y": 315,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 426,
+			"width": 1686,
+			"size": 1,
+			"x": -90,
+			"y": -420,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 4105,
+			"width": 654,
+			"size": 1,
+			"x": -875,
+			"y": -162,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 546,
+			"width": 1590,
+			"size": 1,
+			"x": 2552,
+			"y": -318,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 1349,
+			"width": 624,
+			"size": 1,
+			"x": 1623,
+			"y": 1823,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 2272,
+			"width": 876,
+			"size": 1,
+			"x": -1001,
+			"y":1818,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "1",
+			"height": 163,
+			"width": 480,
+			"size": 1,
+			"x": 1869,
+			"y": 330,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "2",
+			"height": 654,
+			"width": 222,
+			"size": 1,
+			"x": 1192,
+			"y": 2010,
+			"alpha": 0
+		}
+		,
+		{
+			"type": "exit",
+			"name": "3",
+			"height": 348,
+			"width": 660,
+			"size": 1,
+			"x": -162,
+			"y": 1218,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "4",
+			"height": 534,
+			"width": 660,
+			"size": 1,
+			"x": 2654,
+			"y": 1230,
+			"alpha": 0
+		}
+		
+	]
+}

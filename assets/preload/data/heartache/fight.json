@@ -1,0 +1,32 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I... underestimated you."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You're... strong enough... to survive out there."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Go... make ASGORE... pay..."
+		}
+	]
+}

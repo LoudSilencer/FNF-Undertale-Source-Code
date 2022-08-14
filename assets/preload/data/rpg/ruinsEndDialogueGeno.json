@@ -1,0 +1,47 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Don't look so down on yourself."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "All those monsters... they DESERVED it."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "That insufferable goat... and all the others."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "This world is KILL OR BE KILLED."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "And they're not alive anymore to make that choice."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "flowey",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Keep going. We'll rid the underground of these monsters."
+		}
+		
+	]
+}

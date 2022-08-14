@@ -60,7 +60,8 @@ class ChartingState extends MusicBeatState
 		'GF Sing',
 		'No Animation',
 		'Sans Note',
-		'Heal Note'
+		'Heal Note',
+		'Fight Note'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();
@@ -78,8 +79,20 @@ class ChartingState extends MusicBeatState
 		['Play Animation', "Plays an animation on a Character,\nonce the animation is completed,\nthe animation changes to Idle\n\nValue 1: Animation to play.\nValue 2: Character (Dad, BF, GF)"],
 		['Camera Follow Pos', "Value 1: X\nValue 2: Y\n\nThe camera won't change the follow point\nafter using this, for getting it back\nto normal, leave both values blank."],
 		['Alt Idle Animation', "Sets a speciied suffix after the idle animation name.\nYou can use this to trigger 'idle-alt' if you set\nValue 2 to -alt\n\nValue 1: Character to set (Dad, BF or GF)\nValue 2: New suffix (Leave it blank to disable)"],
-		['Screen Shake', "Value 1: Camera shake\nValue 2: HUD shake\n\nEvery value works as the following example: \"1, 0.05\".\nThe first number (1) is the duration.\nThe second number (0.05) is the intensity."],
-		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"]
+		['Screen Shake', "Value 1: Camera shake\nValue 2: HUD shake\n\nEvery value works as the following example: \"1, 0.05\".\nThe first number (1) is the duration.\nThe second number (0.05) is the intensity."],		
+		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"],
+		['HealProjectile',"Create a healing projectile."],	
+		['Change Background', "Value 1: alpha"],
+		['Flash',"Do a flashing light."],
+		['Cause BHell',"Value1: Name of projectile. \nValue 1: Number of Spawn Points."],
+		['Change Soulstate',"Value 1: 0 to start Soul Mechanics, 1 to end Soul Mechanics."],
+		['Spawn Bullet',"Value 2: Up, Down, Left, or Right to signify where the bullets come from. \nValue 1: The file name of the projectile sprite."],
+		['Spawn Warning',"Value 1: Quadrant 1,2,3 or 4.\nValue 2: 0 or 1, 0 being a warning zone, 1 being a damage zone."],
+		['Create Tip',"Value 1: Specify the asset you want to show. Must be PNG, don't include the .png though."],
+		['Slash',"Shakes camera after a FIGHT note has been hit."],
+		['HELLBlueHardmode',"Value 2: Up, Down, Left, or Right to signify where the bullets come from. \nValue 1: The file name of the projectile sprite."],
+		['HELLOrangeHardmode',"Value 2: Up, Down, Left, or Right to signify where the bullets come from. \nValue 1: The file name of the projectile sprite."],			
+		['MOREBlue',"Value 2: Up, Down, Left, or Right to signify where the bullets come from. \nValue 1: The file name of the projectile sprite."]		
 	];
 
 	var _file:FileReference;
@@ -295,7 +308,7 @@ class ChartingState extends MusicBeatState
 		for (i in 0...tipTextArray.length) {
 			var tipText:FlxText = new FlxText(UI_box.x, UI_box.y + UI_box.height + 8, 0, tipTextArray[i], 16);
 			tipText.y += i * 14;
-			tipText.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, LEFT/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
+			tipText.setFormat(Paths.font("undertale.ttf"), 16, FlxColor.WHITE, LEFT/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
 			//tipText.borderSize = 2;
 			tipText.scrollFactor.set();
 			add(tipText);
@@ -1803,7 +1816,7 @@ class ChartingState extends MusicBeatState
 
 			if(note.noteData < 0) {
 				var daText:AttachedFlxText = new AttachedFlxText(0, 0, 400, 'Event: ' + note.eventName + ' (' + Math.floor(note.strumTime) + ' ms)' + '\nValue 1: ' + note.eventVal1 + '\nValue 2: ' + note.eventVal2, 12);
-				daText.setFormat(Paths.font("vcr.ttf"), 12, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+				daText.setFormat(Paths.font("undertale.ttf"), 12, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 				daText.xAdd = -410;
 				daText.borderSize = 1;
 				curRenderedNoteType.add(daText);
@@ -1815,7 +1828,7 @@ class ChartingState extends MusicBeatState
 					if(typeInt == null) theType = '?';
 
 					var daText:AttachedFlxText = new AttachedFlxText(0, 0, 100, theType, 24);
-					daText.setFormat(Paths.font("vcr.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+					daText.setFormat(Paths.font("undertale.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 					daText.xAdd = -32;
 					daText.yAdd = 6;
 					daText.borderSize = 1;

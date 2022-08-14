@@ -1,0 +1,25 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "alright... this first song..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "i call... spooky shuffle."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "because i'm a ghost... and stuff."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "nonskippable",
+			"expression": "talk",
+			"text": "hang on... my child..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "nonskippable",
+			"expression": "talk",
+			"text": "that... look on your face..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "toriel",
+			"boxState": "nonskippable",
+			"expression": "excited",
+			"text": "what... what are you doing?"
+		}
+	]
+}

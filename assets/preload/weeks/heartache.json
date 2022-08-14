@@ -1,0 +1,30 @@
+{
+	"songs": [
+		[
+			"Heartache",
+			"bar",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"blooky",
+		"bf",
+		"gf"
+	],
+	"storyName": "in this world it's rap or die",
+	"weekName": "heartache",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

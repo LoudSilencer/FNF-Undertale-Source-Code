@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="savestar.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SavePoint0000" x="0" y="0" width="1807" height="1807"/>
+	<SubTexture name="SavePoint0001" x="1808" y="0" width="1807" height="1807"/>
+	<SubTexture name="SavePoint0002" x="3616" y="0" width="1807" height="1807"/>
+	<SubTexture name="SavePoint0003" x="5424" y="0" width="1807" height="1807"/>
+	<SubTexture name="SavePoint0004" x="0" y="1808" width="1807" height="1807"/>
+	<SubTexture name="SavePoint0005" x="1808" y="1808" width="1807" height="1807"/>
+	<SubTexture name="SavePoint0006" x="3616" y="1808" width="1807" height="1807"/>
+	<SubTexture name="SavePoint0007" x="5424" y="1808" width="1807" height="1807"/>
+</TextureAtlas>

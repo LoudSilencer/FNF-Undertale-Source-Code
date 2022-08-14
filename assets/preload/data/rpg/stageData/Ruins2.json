@@ -1,0 +1,112 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "RuinsRoom1",
+			"previous":	"RuinsSphere",
+			"next": "Ruins3",
+			"exitX": 1452,
+			"exitY": 954,
+			"mainX": 1452,
+			"mainY": 3093,
+			"areaname": "The Ruins Entrance",
+			"sectionname": "ruins"
+		},
+		{
+			"type": "animated",
+			"name": "savestar",
+			"animdata": ["spin","SavePoint"],
+			"size": 0.5,
+			"x": 705,
+			"y": 670,
+			"alpha": 0
+		},
+		{
+			"type": "interact",
+			"name": "saveDialogueRuins",
+			"completion": "gotoOptions",
+			"height": 761,
+			"width": 683,
+			"size": 1,
+			"x": 1180,
+			"y": 1176,
+			"alpha": 0.90
+		},
+		{
+			"type": "hitbox",
+			"height": 2304,
+			"width": 355,
+			"size": 1,
+			"x": 389,
+			"y": 754,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 861,
+			"width": 283,
+			"size": 1,
+			"x": 1130,
+			"y": 1308,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 396,
+			"width": 2250,
+			"size": 1,
+			"x": 389,
+			"y": 1108,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 396,
+			"width": 2250,
+			"size": 1,
+			"x": 2310,
+			"y": 1099,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 1212,
+			"width": 660,
+			"size": 1,
+			"x": -20,
+			"y": 3345,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 1212,
+			"width": 660,
+			"size": 1,
+			"x": 2546,
+			"y": 3338,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "1",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 1238,
+			"y": 960,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "2",
+			"height": 573,
+			"width": 165,
+			"size": 1,
+			"x": 1238,
+			"y": 3883,
+			"alpha": 0
+		}
+
+		
+	]
+}

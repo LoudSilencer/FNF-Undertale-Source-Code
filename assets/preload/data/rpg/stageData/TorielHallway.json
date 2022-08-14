@@ -1,0 +1,60 @@
+{
+	"assets": [
+		{
+			"type": "data",
+			"backgroundName": "TorielHallway",
+			"previous": "Void",
+			"next": "Void",
+			"third": "Void",
+			"fourth": "TorielHouseMain",
+			"mainX": 347,
+			"mainY": 844,
+			"exitX": 347,
+			"exitY": 844,
+			"thirdX": 347,
+			"thirdY": 844,
+			"fourthX": 347,
+			"fourthY": 844,
+			"areaname": "Toriel's House",
+			"sectionname": "house"
+		},
+		{
+			"type": "hitbox",
+			"height": 7336,
+			"width": 1440,
+			"size": 1,
+			"x": -16,
+			"y": -632,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 416,
+			"width": 2160,
+			"size": 1,
+			"x": 6688,
+			"y": 0,
+			"alpha": 0
+		},
+		{
+			"type": "hitbox",
+			"height": 7888,
+			"width": 1480,
+			"size": 1,
+			"x": -72,
+			"y": 1336,
+			"alpha": 0
+		},
+		{
+			"type": "exit",
+			"name": "4",
+			"height": 192,
+			"width": 960,
+			"size": 1,
+			"x": 2,
+			"y": 500,
+			"alpha": 0
+		}
+		
+	]
+}

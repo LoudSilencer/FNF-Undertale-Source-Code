@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spiketrap.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="locked0000" x="5" y="5" width="500" height="664"/>
+	<SubTexture name="locked0001" x="5" y="5" width="500" height="664"/>
+	<SubTexture name="locked0002" x="5" y="5" width="500" height="664"/>
+	<SubTexture name="locked0003" x="5" y="5" width="500" height="664"/>
+	<SubTexture name="locked0004" x="5" y="5" width="500" height="664"/>
+	<SubTexture name="unlocked0000" x="510" y="5" width="499" height="620"/>
+	<SubTexture name="unlocked0001" x="510" y="5" width="499" height="620"/>
+	<SubTexture name="unlocked0002" x="510" y="5" width="499" height="620"/>
+	<SubTexture name="unlocked0003" x="510" y="5" width="499" height="620"/>
+	<SubTexture name="unlocked0004" x="510" y="5" width="499" height="620"/>
+	<SubTexture name="unlocked0005" x="510" y="5" width="499" height="620"/>
+	<SubTexture name="unlocked0006" x="510" y="5" width="499" height="620"/>
+	<SubTexture name="unlocked0007" x="510" y="5" width="499" height="620"/>
+</TextureAtlas>

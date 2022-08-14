@@ -1,0 +1,67 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				161,
+				272
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Injured",
+			"indices": [],
+			"name": "Injured"
+		},
+		{
+			"offsets": [
+				161,
+				272
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Shocked",
+			"indices": [],
+			"name": "Shocked"
+		},
+		{
+			"offsets": [
+				164,
+				272
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Slashed",
+			"indices": [],
+			"name": "Slashed"
+		},
+		{
+			"offsets": [
+				230,
+				382
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Shatter",
+			"indices": [],
+			"name": "Shatter"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/torielGeno",
+	"position": [
+		370,
+		100
+	],
+	"healthicon": "dad",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		0
+	],
+	"camera_position": [
+		-300,
+		-100
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

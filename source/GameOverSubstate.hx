@@ -6,6 +6,9 @@ import flixel.FlxSubState;
 import flixel.math.FlxMath;
 import flixel.math.FlxPoint;
 import flixel.util.FlxColor;
+import flixel.FlxSprite;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
 import flixel.util.FlxTimer;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
@@ -25,6 +28,8 @@ class GameOverSubstate extends MusicBeatSubstate
 	public static var deathSoundName:String = 'fnf_loss_sfx';
 	public static var loopSoundName:String = 'gameOver';
 	public static var endSoundName:String = 'gameOverEnd';
+	var deathAnim:FlxSprite;
+	var gameOver:FlxSprite;
 
 	public static function resetVariables() {
 		characterName = 'bf';
@@ -42,7 +47,6 @@ class GameOverSubstate extends MusicBeatSubstate
 		Conductor.songPosition = 0;
 
 		bf = new Boyfriend(x, y, characterName);
-		add(bf);
 
 		camFollow = new FlxPoint(bf.getGraphicMidpoint().x, bf.getGraphicMidpoint().y);
 
@@ -53,13 +57,62 @@ class GameOverSubstate extends MusicBeatSubstate
 		FlxG.camera.scroll.set();
 		FlxG.camera.target = null;
 
-		bf.playAnim('firstDeath');
 
+
+		deathAnim = new FlxSprite().loadGraphic(Paths.image('deathBF'));
+		deathAnim.frames = Paths.getSparrowAtlas('deathBF');
+		deathAnim.width *= 2;
+		deathAnim.height *= 2;
+		deathAnim.setGraphicSize(Std.int(deathAnim.width));
+		deathAnim.animation.addByPrefix('deathBF', "deathBF", 24,false);
+		add(deathAnim);
+		deathAnim.screenCenter();
+		deathAnim.animation.play('deathBF');
+		deathAnim.x += 100;
+		deathAnim.y += 100;
+
+		gameOver = new FlxSprite().loadGraphic(Paths.image('gameOver'));
+		gameOver.alpha = 0;
+		gameOver.screenCenter();
+		gameOver.x += 0;
+		add(gameOver);
+		switch(ClientPrefs.soulColor)
+			{
+				case 0:
+					deathAnim.color = FlxColor.fromRGB(255,0,0);
+				case 1:
+					deathAnim.color = FlxColor.fromRGB(0,0,255);
+				case 2:
+					deathAnim.color = FlxColor.fromRGB(0,255,255);
+				case 3:
+					deathAnim.color = FlxColor.fromRGB(0,255,0);
+				case 4:
+					deathAnim.color = FlxColor.fromRGB(255,0,255);
+				case 5:
+					deathAnim.color = FlxColor.fromRGB(255,125,0);
+				case 6:
+					deathAnim.color = FlxColor.fromRGB(255,255,0);
+				case 7:
+					deathAnim.color = FlxColor.fromRGB(125,125,125);
+				default:
+					deathAnim.color = FlxColor.fromRGB(255,0,0);
+				
+			}
 		var exclude:Array<Int> = [];
 
 		camFollowPos = new FlxObject(0, 0, 1, 1);
 		camFollowPos.setPosition(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2));
 		add(camFollowPos);
+
+		FlxTween.tween(deathAnim, {alpha: 1}, 2.5, 
+		{onComplete: function (twn:FlxTween) 
+			{
+				coolStartDeath();
+				bf.startedDeath = true;
+				FlxTween.tween(gameOver, {alpha: 1}, 1);
+			}
+		}
+		);
 	}
 
 	override function update(elapsed:Float)
@@ -85,10 +138,11 @@ class GameOverSubstate extends MusicBeatSubstate
 				updateCamera = true;
 			}
 
-			if (bf.animation.curAnim.finished)
+			if (deathAnim.animation.curAnim.finished)
 			{
 				coolStartDeath();
 				bf.startedDeath = true;
+				FlxTween.tween(gameOver, {alpha: 1}, 1);
 			}
 		}
 
@@ -118,7 +172,8 @@ class GameOverSubstate extends MusicBeatSubstate
 		if (!isEnding)
 		{
 			isEnding = true;
-			bf.playAnim('deathConfirm', true);
+
+
 			FlxG.sound.music.stop();
 			FlxG.sound.play(Paths.music(endSoundName));
 			new FlxTimer().start(0.7, function(tmr:FlxTimer)

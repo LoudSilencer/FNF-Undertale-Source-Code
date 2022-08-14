@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="torielrpg.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="boyfriend_down0000" x="10" y="10" width="203" height="426" frameX="-5" frameY="0" frameWidth="212" frameHeight="430"/>
+	<SubTexture name="boyfriend_down0001" x="223" y="10" width="211" height="425" frameX="-1" frameY="-5" frameWidth="212" frameHeight="430"/>
+	<SubTexture name="boyfriend_down0002" x="10" y="10" width="203" height="426" frameX="-5" frameY="0" frameWidth="212" frameHeight="430"/>
+	<SubTexture name="boyfriend_down0003" x="444" y="10" width="211" height="425" frameX="0" frameY="-5" frameWidth="212" frameHeight="430"/>
+	<SubTexture name="boyfriend_left0000" x="665" y="10" width="161" height="428" frameX="-27" frameY="0" frameWidth="209" frameHeight="428"/>
+	<SubTexture name="boyfriend_left0001" x="836" y="10" width="209" height="414" frameX="0" frameY="-3" frameWidth="209" frameHeight="428"/>
+	<SubTexture name="boyfriend_left0002" x="665" y="10" width="161" height="428" frameX="-27" frameY="0" frameWidth="209" frameHeight="428"/>
+	<SubTexture name="boyfriend_left0003" x="836" y="10" width="209" height="414" frameX="0" frameY="-3" frameWidth="209" frameHeight="428"/>
+	<SubTexture name="boyfriend_right0000" x="1055" y="10" width="161" height="428" frameX="-19" frameY="0" frameWidth="209" frameHeight="428"/>
+	<SubTexture name="boyfriend_right0001" x="1226" y="10" width="209" height="414" frameX="0" frameY="-2" frameWidth="209" frameHeight="428"/>
+	<SubTexture name="boyfriend_right0002" x="1055" y="10" width="161" height="428" frameX="-19" frameY="0" frameWidth="209" frameHeight="428"/>
+	<SubTexture name="boyfriend_right0003" x="1226" y="10" width="209" height="414" frameX="0" frameY="-2" frameWidth="209" frameHeight="428"/>
+	<SubTexture name="boyfriend_up0000" x="1445" y="10" width="198" height="407" frameX="0" frameY="0" frameWidth="199" frameHeight="417"/>
+	<SubTexture name="boyfriend_up0001" x="1653" y="10" width="198" height="414" frameX="0" frameY="-3" frameWidth="199" frameHeight="417"/>
+	<SubTexture name="boyfriend_up0002" x="1445" y="10" width="198" height="407" frameX="0" frameY="0" frameWidth="199" frameHeight="417"/>
+	<SubTexture name="boyfriend_up0003" x="10" y="448" width="198" height="414" frameX="-1" frameY="-3" frameWidth="199" frameHeight="417"/>
+</TextureAtlas>

@@ -1,9 +1,13 @@
 stage
 hall
+ruins
+ruinsdoor
 spooky
 philly
 limo
 mall
+empty
 mallEvil
 school
 schoolEvil
+hell
